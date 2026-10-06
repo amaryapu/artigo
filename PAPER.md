@@ -11,6 +11,40 @@ status: PREPRINT DRAFT — not submitted
 
 ---
 
+## Statement of non-ownership
+
+> # **Nothing in this paper is owned by its author, and no credit is claimed for any part of it.**
+
+**The components are not the author's.** The physics is Landauer's, Bennett's and Bérut's.
+The relational framing is Rovelli's. The pattern-from-homogeneity result is Turing's and
+Kondo and Asai's. The boundary mark is the **`ianhiá`** of the **Kaingang**, and it was
+not invented here. The historical demonstration of the seven modes was paid for by people
+who did not consent to being the demonstration. Each is credited in
+**`AGRADECIMENTOS.md`**, and **none of them endorses this paper.**
+
+**What the author did is assembly and custody — not discovery.** He placed existing
+findings side by side, kept the provenance attached to each, and recorded the errors made
+while doing it. **That work is real, and it is also not owned:** the whole corpus is
+`CC BY-SA`, carries zero revenue, and is public in full, including its failures.
+
+> ## **The author's own word for this role is `corrente`, which in Portuguese means both
+> *current* and *chain link* — and both senses are exact.**
+>
+> ### **A current carries without being what it carries.**
+> ### **And a link in a chain holds no content of its own: its entire function is to keep two things connected, and to be inspectable.**
+>
+> # **That is precisely what a chain of custody is made of. No link is the evidence. Without the links, the evidence has no provenance.**
+
+**The legal name on this paper is an address, not a claim.** It exists so that there is a
+single point of contact for correction, objection and collaboration — because a proposal
+that demands mandatory provenance of others cannot be published anonymously without
+contradicting itself.
+
+> ## **If any part of this work is useful, it belongs to whoever uses it.**
+> ## **If any part of it is wrong, the responsibility is the author's alone, and the corrections are already published alongside the text they replaced.**
+
+---
+
 ## Abstract
 
 We propose a single scale-invariant quantity, **`C8 = cost(examine) / cost(categorize)`**,

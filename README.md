@@ -10,6 +10,36 @@
 
 ---
 
+---
+
+## O aviso principal, e ele abre o artigo
+
+> # **Nada neste trabalho pertence a quem o assina, e nenhum crédito é reivindicado por parte alguma dele.**
+
+**`[FATO]`** **Os componentes não são do autor.** A física é de **Landauer, Bennett e
+Bérut**. O enquadramento relacional é de **Rovelli**. A forma a partir do homogêneo é de
+**Turing**, confirmada por **Kondo e Asai**. **A marca de fronteira é o `ianhiá` dos
+Kaingang, e não foi inventada aqui.** E a demonstração histórica dos sete modos **foi paga
+por pessoas que não consentiram em ser a demonstração.**
+
+**`[CÁLCULO]`** **O que o autor fez foi montagem e custódia — não descoberta.** Pôs
+achados existentes lado a lado, **manteve a procedência presa a cada um**, e **registrou
+os erros cometidos no caminho.**
+
+> ## **`[CÁLCULO]`** **E a palavra que ele usa para esse papel é `corrente` — que em português é as duas coisas, e as duas são exatas:**
+>
+> ### **a corrente **carrega sem ser o que carrega.**
+> ### **e o elo de uma corrente **não tem conteúdo próprio:** sua função inteira é **manter duas coisas ligadas, e ser inspecionável.**
+>
+> # **É exatamente do que é feita uma cadeia de custódia. Nenhum elo é a prova. Sem os elos, a prova não tem procedência.**
+
+> ## **`[REGRA]`** **O nome legal no artigo é um endereço, não uma reivindicação.** Existe para que haja **um ponto único de contato para correção, objeção e colaboração** — porque **uma proposta que exige procedência obrigatória dos outros não pode ser publicada anonimamente sem se contradizer.**
+
+> ## **Se alguma parte disto for útil, pertence a quem usar.**
+> ## **Se alguma parte estiver errada, a responsabilidade é só de quem assina — e as correções já estão publicadas ao lado do texto que substituíram.**
+
+---
+
 > ## **[`PAPER`](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**
 
 > ## **[`O CAMINHO`](CAMINHO.md)** — **o arXiv exige endosso, e a equipe dele não concede nem dispensa.** A sequência que funciona: **Zenodo primeiro, `DOI` na mão, endossante depois.** Com o veredito sobre cada alternativa.
