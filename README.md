@@ -42,6 +42,10 @@ os erros cometidos no caminho.**
 
 > ## **[`PAPER`](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**
 
+> ## **[`A CRISTALIZAÇÃO`](CRISTALIZACAO.md)** — **quatro erros achados ao preparar a teoria para teste**, e nenhum deles apareceria num teste de software. O principal: **`M2` não pertence à lista destrutiva** — é a classe inerte, **e é o que torna as outras recuperáveis.**
+
+> ## **[`A SEMENTE · CRIOLO`](SEMENTE-CRIOLO.md)** — ***Até Me Emocionei*** (2006), com o estudo etimológico. ***«Eu não fiz o rap, mas o rap foi que me fez»*** é **o aviso de não-propriedade deste artigo, dito dezenove anos antes em onze palavras.**
+
 > ## **[`OS TESTES`](TESTES.md)** — **a lista do que pode derrubar o artigo, feita contra ele.** `T0` reprodutibilidade (**feito, um comando**), `T2` as **seis referências não conferidas que bloqueiam a publicação**, `T1` a **equipe vermelha**, e `T3` a medição que o artigo pede e não executou.
 
 > ## **[`REPRODUZIR.sh`](REPRODUZIR.sh)** — **uma linha, sem dependências.** `16/16` nos declarados, `10/10` ataques passando, **cada um nomeado.**

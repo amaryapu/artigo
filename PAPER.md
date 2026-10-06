@@ -1,13 +1,13 @@
 ---
-title: "Examination Cost as an Alignment Variable"
-subtitle: "A decision-record protocol, a verifier, and ten adversarial attacks that all succeeded"
+title: "The Cost of Examination"
+subtitle: "A decision-record protocol, its verifier, and ten attacks that defeat it"
 author: "Hirapius Jupiter Tolkien Mocelin (AMARYAPU / YRYAPU)"
 status: PREPRINT DRAFT — not submitted
 ---
 
-# Examination Cost as an Alignment Variable
+# The Cost of Examination
 
-### A decision-record protocol, a verifier, and ten adversarial attacks that all succeeded
+### A decision-record protocol, its verifier, and ten attacks that defeat it
 
 ---
 
@@ -117,6 +117,12 @@ where **`cost_system(error)`** is the portion of the cost of a wrong decision th
 on the deciding system**, as opposed to the portion that falls on the person decided
 about.
 
+> ## **`P(error)` is not knowable in advance.** If it were, there would be no error. It is
+> **estimated retrospectively from an audited sample of decisions already made**, as in
+> standard quality control. **This changes the status of the inequality: it is not an a
+> priori criterion but a regulatory one**, applied to a running process with sampling. We
+> state this because the formula otherwise appears to claim more than it can.
+
 > ## **The condition to be engineered is `C8_eff < 1`**, which expands to:
 >
 > ### **`cost(examine)` < `cost(categorize)` + `P(error) · cost_system(error)`**
@@ -173,9 +179,40 @@ distinguishable inputs into one output, destroying the information of which was 
 | `M7` | **cost delegation** | the decider and the executor are separated **until no author remains** |
 
 **Landauer (1961)** established a lower bound of `kT·ln2` on the energy cost of erasing a
-bit. **Bennett** extended this to any logically irreversible manipulation — *"the erasure
-of a bit, **or the merging of two computation paths**"*. **Bérut et al. (2012)** confirmed
-the bound experimentally.
+bit. **Bennett (1982)** extended this to any logically irreversible manipulation — *"the
+erasure of a bit, **or the merging of two computation paths**"*. **Bérut et al. (2012)**
+confirmed the bound experimentally.
+
+> ## **Note that Bennett names two operations, not one.** An earlier draft of this paper
+> claimed the modes were instances of **merging** alone. **That claim was false, and we
+> correct it here:** `M1`, `M3`, `M6` and `M7` merge; **`M4` and `M5` erase.** Both are
+> logically irreversible and both carry the floor; the source said so in the line we were
+> quoting.
+
+### 2.1 `M2` is not in this class, and that is the point
+
+**`M2` neither erases nor merges. Nothing is lost in `M2`:** the harm is documented in
+full, with a date, and the process continues.
+
+> # **`M2` is the only mode in which the information is preserved — and it is the reason
+> everything else is recoverable later.**
+
+| class | modes | characterised by | reversible |
+|---|---|---|---|
+| **I · destructive** | `M1`, `M3`, `M4`, `M5`, `M6`, `M7` | **erasure or merging — information is lost** | **no** |
+| ## **II · inert** | ## **`M2`** | ## **information preserved and not acted upon** | ## **yes** |
+
+> ## **`M2` is both a failure and the rescue, and it is the same property seen from two
+> sides: the record nobody acted on is the record that survives for someone else to act
+> on.**
+
+**The failure in `M2` is not informational — it is a failure of action.** It is the
+distance between knowing and stopping, and that distance is **inertia, not erasure.**
+
+> ## **This has an immediate consequence for design: the intervention against `M2` is of a
+> different kind from the intervention against the other six.** Against class I, preserve
+> the information. **Against `M2`, compel action on information already preserved** —
+> which is a trigger, not a record.
 
 > We note this connection and **state its limit explicitly: it establishes that merging
 > has an unavoidable thermodynamic cost and that distinguishing does not. It does not
@@ -373,6 +410,11 @@ ourselves.
 > - **This is not a claim about physics beyond the citation of Landauer, Bennett and
 >   Bérut**, whose results are used only for the statement that merging has a cost floor
 >   and distinguishing does not.
+> - **A theory with no villain owes an answer to the practical question it creates: what
+>   is to be done when there is no one to charge.** The answer this paper adopts is not
+>   its own. It is **Criolo's**, in *Até Me Emocionei* (2006): ***«Quem fez o buraco eu não
+>   sei / Mas o rap vai consertando»*** — *I don't know who dug the hole, but rap goes on
+>   repairing it.* **Not knowing who dug does not suspend the obligation to repair.**
 > - **This is not a claim that any institution or group is malicious.** The proposal is
 >   explicitly structural: the seven modes are reproduced by cost gradients and require no
 >   ill intent, and we regard explanations that require a villain as weaker, not stronger.
