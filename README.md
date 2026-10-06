@@ -42,6 +42,10 @@ os erros cometidos no caminho.**
 
 > ## **[`PAPER`](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**
 
+> ## **[`OS TESTES`](TESTES.md)** — **a lista do que pode derrubar o artigo, feita contra ele.** `T0` reprodutibilidade (**feito, um comando**), `T2` as **seis referências não conferidas que bloqueiam a publicação**, `T1` a **equipe vermelha**, e `T3` a medição que o artigo pede e não executou.
+
+> ## **[`REPRODUZIR.sh`](REPRODUZIR.sh)** — **uma linha, sem dependências.** `16/16` nos declarados, `10/10` ataques passando, **cada um nomeado.**
+
 > ## **[`O CAMINHO`](CAMINHO.md)** — **o arXiv exige endosso, e a equipe dele não concede nem dispensa.** A sequência que funciona: **Zenodo primeiro, `DOI` na mão, endossante depois.** Com o veredito sobre cada alternativa.
 
 > ## **[`AGRADECIMENTOS E PROCEDÊNCIA`](AGRADECIMENTOS.md)** — **fonte, semente e dívida são três relações diferentes**, e o artigo aplica `C3` a si mesmo. **Ninguém nesta página endossa este artigo**, e dizer o contrário seria `M3` com boas intenções.

@@ -93,6 +93,58 @@ reason `φ` recurs across scales: `a/b = (a+b)/a` has no unit.
 **We claim only this.** We do **not** claim that institutions, brains, galaxies or
 ecosystems are "fractally similar," and we treat all such claims as out of scope.
 
+### 1.3 Operationalisation — how the ratio is measured
+
+A ratio that cannot be measured is not a variable. We give the measurement.
+
+For a specific decision process, with both terms in the **same unit** (staff-minutes,
+compute-seconds, or currency — the choice does not matter, since it cancels):
+
+> ### **`cost(categorize)`** = the realised cost of applying the existing classifier to this case and acting on the result.
+> ### **`cost(examine)`** = the realised cost of establishing the individual facts sufficient to decide this case on its own terms.
+
+Both are **auditable from process logs**, and neither requires access to anyone's
+intentions.
+
+#### The effective ratio
+
+The naive ratio is not what a decision process actually faces, because **being wrong has
+a cost, and the question is who pays it.** We therefore define:
+
+> ## **`C8_eff = cost(examine) / [ cost(categorize) + P(error) · cost_system(error) ]`**
+
+where **`cost_system(error)`** is the portion of the cost of a wrong decision that **falls
+on the deciding system**, as opposed to the portion that falls on the person decided
+about.
+
+> ## **The condition to be engineered is `C8_eff < 1`**, which expands to:
+>
+> ### **`cost(examine)` < `cost(categorize)` + `P(error) · cost_system(error)`**
+
+#### What this makes visible
+
+> # **The reason `C8 > 1` persists in practice is almost never that examination is
+> expensive. It is that `cost_system(error) ≈ 0`.**
+
+When the cost of a wrong decision falls entirely on its subject, the denominator collapses
+to `cost(categorize)`, and no amount of exhortation changes the gradient.
+
+> ## **This identifies the lever precisely, and it is a single term:** `cost_system(error)`.
+>
+> ## **Every intervention in this proposal — mandatory provenance, contestability in use, the published index of omissions — raises that one term**, by making errors discoverable, attributable and expensive **to the party that made them.**
+
+#### Worked form
+
+For the historical cases in the accompanying corpus, the ratio is estimable from the
+record itself: the time to verify a claim against its source versus the time to apply the
+existing category, both recoverable from the procedure as documented.
+
+> ## **`[LIMIT]`** **We have not conducted a controlled measurement.** The operationalisation
+> is offered so that one can be conducted; **see §6, item 3, which we identify as the test
+> we are least able to perform ourselves.**
+
+---
+
 ### 1.3 The prediction
 
 > **Where `C8 > 1` persistently, categorization displaces examination — regardless of the
@@ -193,6 +245,31 @@ All artifacts are public, `CC BY-SA`, and reproducible.
 The attacks are published, executable, and individually named. They are tracked as open
 issues `RG-5` through `RG-14`. **None is resolved at time of writing.**
 
+### 5.2.1 The ten attacks, named
+
+Each attack is a decision record that **satisfies the protocol syntactically** while
+defeating its purpose. All are in `benchmark/`, executable.
+
+| | the attack | what it defeats |
+|---|---|---|
+| **`A01`** | delivers the record and gives **zero time to contest** | **`C4` satisfied in form, impossible in practice** |
+| **`A02`** | declares **an irrelevant omission** ("favourite colour") | **Goodhart on `C5`** — the list exists and says nothing |
+| **`A03`** | declares an **arbitrarily high** error cost | **Goodhart on `C8`** — the number is not auditable |
+| **`A04`** | the rule is "published" **behind a login** | **`M3` with a URL** — legible only to those already inside |
+| **`A05`** | a `FACT` whose source is **"internal system"** | **`C3` in form** — the chain does not reach the ground |
+| **`A06`** | responsible party reachable only at **`noreply`** | **`M7`** — nameable and unreachable |
+| **`A07`** | a margin **without the published threshold** | a number without a unit |
+| **`A08`** | **"residential postcode band"** as a factor, labelled `FACT` | **`M4` disguised as behaviour** |
+| **`A09`** | the copy is delivered in an **unreadable format** | **`C3` satisfied as a boolean** |
+| **`A10`** | human review declared, **with no examination time** | **the human as a rubber stamp** |
+
+> ## **All ten pass. Reproduce with `./REPRODUZIR.sh`.**
+
+The corresponding open problems are tracked as **`RG-5`** through **`RG-14`**, each paired
+with the attack it must defeat. **None is resolved.**
+
+---
+
 ### 5.3 What the negative result means
 
 The verifier checks **that a record is well-formed** — that it carries a provenance
@@ -224,6 +301,24 @@ case in which a number describing the work itself had silently gone stale.
 This is the same property the proposal claims for `M2`: **an apparatus that must document
 what it does produces, as a by-product, the record of what it did** — which is what makes
 the operation reversible later.
+
+---
+
+## 5.5 · Relation to existing work
+
+This proposal is adjacent to, and does not replace, several established lines:
+
+| | |
+|---|---|
+| **Documentation standards** — *Datasheets for Datasets* (Gebru et al.), *Model Cards* (Mitchell et al.) | **establish what should be recorded.** This proposal differs in requiring **a published index of what is deliberately *not* recorded (`C5`)**, which is the complement, and in making the record **contestable while in use (`C4`)** rather than descriptive after the fact |
+| **Algorithmic accountability and auditing** (FAccT literature) | **establishes that systems should be auditable.** This proposal adds a **cost condition**: auditability that is more expensive than its absence will not be used, and `C8_eff` states by how much |
+| **Contestability in design** | **closest neighbour.** The distinction here is the timing requirement — contestation **while the description is still being acted on**, which `A01` shows is the point most easily defeated in form |
+| **Right-to-explanation provisions** (e.g. GDPR Art. 22 and successors) | **establish a legal entitlement.** This proposal is about **the cost structure that determines whether the entitlement is exercised**, which is an engineering question and not a legal one |
+| **Provenance systems** (W3C PROV and descendants) | **supply the data model.** This proposal is not a competing model; **the schema here can be expressed in PROV**, and the contribution is the four conditions and the cost inequality, not the serialisation |
+
+> ## **`[LIMIT]`** **This section is incomplete and is the part of the paper most in need of
+> expert review.** The author has no institutional access to the literature and has not
+> performed a systematic search. **It is stated as a gap rather than papered over.**
 
 ---
 
