@@ -229,6 +229,35 @@ repeat the verse. It corrected it.**
 | `M6` | **the absolving category** | a category that explains everything **and therefore requires no examination** |
 | `M7` | **cost delegation** | the decider and the executor are separated **until no author remains** |
 
+#### `M1` and `M7`, documented together
+
+**Eldorado dos Carajás, Pará, Brazil, 17 April 1996.** The Military Police of Pará killed
+**19 landless rural workers** and injured dozens during a march on the **BR-155**.
+
+**More than 150 officers, who had removed the identification badges from their uniforms**,
+armed with rifles and live ammunition, carried out the repression. Autopsies established
+that **10 of the 19 were executed**, some at point-blank range, others killed with their
+own farm tools.
+
+**Two commanders were convicted** — 258 and 158 years, imprisoned since 2012. **No officer
+and no political figure who may have incited or consented was held responsible.**
+Amnesty International marked the twentieth anniversary as **"20 years of impunity."**
+
+> # **"They had removed the identification badges from their uniforms."**
+>
+> ## **This is `M1` executed physically, by hand, in advance.** The badge *is* the
+> responsible-party field. Removing it **empties that field deliberately and before the
+> act.**
+>
+> ## **And it is `M7`:** more than one hundred and fifty people acted, two commanders
+> answered, **and no one above them** — because **the field that would say who ordered it
+> does not exist.**
+
+**The two modes are not separate events here.** The emptied field is what makes the
+delegation unattributable. **`M1` is the mechanism by which `M7` is achieved.**
+
+
+
 **Landauer (1961)** established a lower bound of `kT·ln2` on the energy cost of erasing a
 bit. **Bennett (1982)** extended this to any logically irreversible manipulation — *"the
 erasure of a bit, **or the merging of two computation paths**"*. **Bérut et al. (2012)**
