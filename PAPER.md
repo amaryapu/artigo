@@ -221,6 +221,11 @@ account.*
 **Fifty-three years, Bahia to Brasília, Tropicália to rap — and the transmission did not
 repeat the verse. It corrected it.**
 
+> ## **`[LIMIT]`** **This passage illustrates `M1`; it does not demonstrate it.** The
+> existence and detectability of the absent field are established by the schema and the
+> benchmark, **not by the verse.** A lyric may **formulate** better than the apparatus;
+> **it may never substitute for the apparatus's evidence.**
+
 
 | `M2` | **confession without interruption** | the harm is recorded in full **and the process continues** |
 | `M3` | **reclassification** | two distinct histories produce **one label** |
@@ -257,6 +262,13 @@ Amnesty International marked the twentieth anniversary as **"20 years of impunit
 delegation unattributable. **`M1` is the mechanism by which `M7` is achieved.**
 
 
+
+> ## **`[LIMIT, STATED FIRST]`** What follows establishes that **merging has an
+> unavoidable thermodynamic floor and distinguishing does not.** It establishes **nothing
+> about ethics, and no ethical conclusion is drawn from it anywhere in this paper.** We
+> place this before the argument rather than after it, because **a caveat that arrives
+> after the claim does not constrain the claim — it absolves it**, and absolving after the
+> fact is `M2`.
 
 **Landauer (1961)** established a lower bound of `kT·ln2` on the energy cost of erasing a
 bit. **Bennett (1982)** extended this to any logically irreversible manipulation — *"the
@@ -328,7 +340,13 @@ theta functions**, objects that resemble modular forms and are not, which he nam
 boundary rather than forcing into either class — and which were only given a formal home
 **82 years later** (Zwegers, 2002).
 
-> We cite these as **evidence that boundary marking is productive, not as authority.**
+> ## **We cite these as two independent precedents in which boundary marking was
+> `retrospectively vindicated` — not as evidence that it is productive in general, and not
+> as authority.**
+>
+> **The distinction matters and cuts against us:** Zwegers took **82 years**, and for
+> those 82 years Ramanujan's mark was **not productive — only honest.** Two illustrations
+> from unrelated fields are not a sample.
 
 ---
 

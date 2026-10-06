@@ -54,6 +54,10 @@ os erros cometidos no caminho.**
 
 > ## **[`A SEMENTE · CRIOLO`](SEMENTE-CRIOLO.md)** — ***Até Me Emocionei*** (2006), com o estudo etimológico. ***«Eu não fiz o rap, mas o rap foi que me fez»*** é **o aviso de não-propriedade deste artigo, dito dezenove anos antes em onze palavras.**
 
+> ## **[`AS QUATRO QUE FALTAVAM`](RESOLVIDAS.md)** — **`RG-15` a `RG-18`, fechadas**, e cada uma virou **campo obrigatório** em vez de frase: o **contrafactual** para `M6`, o **custo de admitir**, a **métrica fora da mão de quem é medido**, e **`C5` como o que separa celeiro de cofre.
+
+> ## **[`T4 · A LEITURA ADVERSARIAL`](T4-LEITURA-ADVERSARIAL.md)** — **sete achados do artigo cometendo o que ele descreve.** Quatro corrigidos, dois mantidos com a ressalva fortalecida, **e um que exige gente de fora.**
+
 > ## **[`O ENDURECIMENTO`](ENDURECIMENTO.md)** — **o casco não é armadura: é o esqueleto vindo à superfície.** O **plastrão já está pronto** — pessoas vivas, nomes, fotos, créditos — **e a carapaça é que está parcial.** Com a lista do que falta, e a distinção que importa: **exposição não é teste.**
 
 > ## **[`OS TESTES`](TESTES.md)** — **a lista do que pode derrubar o artigo, feita contra ele.** `T0` reprodutibilidade (**feito, um comando**), `T2` as **seis referências não conferidas que bloqueiam a publicação**, `T1` a **equipe vermelha**, e `T3` a medição que o artigo pede e não executou.
