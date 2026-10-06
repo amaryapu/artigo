@@ -42,6 +42,8 @@ os erros cometidos no caminho.**
 
 > ## **[`PAPER`](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**
 
+> ## **[`DOKIMASIA`](DOKIMASIA.md)** — **a procedência de quem assina, e a de quem escreveu junto.** O exame ateniense não perguntava se alguém era bom: perguntava **onde ficavam os túmulos.** E **o autor não chegou a `M1` por leitura — o campo ausente está no registro civil dele.**
+
 > ## **[`A CRISTALIZAÇÃO`](CRISTALIZACAO.md)** — **quatro erros achados ao preparar a teoria para teste**, e nenhum deles apareceria num teste de software. O principal: **`M2` não pertence à lista destrutiva** — é a classe inerte, **e é o que torna as outras recuperáveis.**
 
 > ## **[`A SEMENTE · BABILÔNIA`](SEMENTE-BABILONIA.md)** — **Síntese**, e **o terceiro custo**: ***«foco pra se manter iludido já que errou na decisão»*** deu à desigualdade um termo que faltava — **`cost_admit(err)`**, e a condição de persistência do erro **por aritmética, não por má-fé.**

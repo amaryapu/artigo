@@ -574,6 +574,48 @@ at **`github.com/amaryapu`**. Nothing in this proposal is licensed for fee.
 
 ---
 
+## 9 · Provenance of the proposal
+
+A paper that requires mandatory provenance of others owes its own.
+
+**This work did not begin as research on artificial intelligence.** It began as a
+**genealogical study made as a gift for the author's grandmother**, and the labelling
+system used throughout — `FACT`, `CALCULATION`, `DECLARED`, `TO BE VERIFIED` — was
+designed for that purpose, not for this one.
+
+> ## **A serious genealogy is an exercise in `C3` by necessity: every name needs a
+> certificate, every date a source, and whatever could not be proven must be marked
+> unproven — or the whole tree falls.**
+
+**The founding rule of the corpus, in the author's words, is: *"I cannot show
+hallucinations to my grandmother."*** It is older than anything this paper says about
+models, and it is the reason the negative result in §5 was published rather than hidden.
+**The discipline did not come from research ethics. It came from a specific person who
+was going to read it.**
+
+### And the author's own record contains the mechanism
+
+The author states that **a surname was added by him to his own name, because the Brazilian
+state did not accept registration of his paternity by his father, who was Uruguayan.**
+
+> # **The author did not arrive at `M1` — the absent field — by reading about it. The
+> absent field is in his own civil registry.**
+
+**What he did with it is the proposal in a single gesture:** he did not litigate, did not
+erase, and did not request. **He added.** The two names run together and remain
+distinguishable; **neither replaced the other.**
+
+> ## **We report this because it is provenance, and because a reader is entitled to know
+> that the person proposing a protocol about emptied fields was the subject of one.** It
+> is not offered as evidence for any claim in this paper, and **none of the claims depend
+> on it.**
+
+**The names of living third parties are not published here.** They remain in the private
+archive where that research lives, under a rule the author wrote before this paper
+existed: **"data about living persons does not go into a public repository."**
+
+---
+
 ## Acknowledgements
 
 See **`AGRADECIMENTOS.md`** for the full provenance statement.
