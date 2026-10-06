@@ -73,6 +73,7 @@ trabalho e o alterou**, e **está registrada com a passagem exata no corpus.**
 | **Sant**, com **Tiago Mac** e **Bukola 2Tey** | ***Pandora*** (24/08/2018, produção **El Lif Beatz**, clipe de **Gabriel Solano**): ***«todos os males surgiram duma caixa»***, ***«que o mal não gere»***, ***«regredi sem retroceder»*** |
 | **Ingles** | ***Terráqueos*** e ***Recomeço*** — ***«viver é se doar, e morrer é se omitir»***, que é **`M1` enunciado por um poeta** |
 | **Yago Oproprio** | ***Mundo da Lua*** — ***«entendo que com fatos não existem argumentos»***, e ***«na picadilha observando pelas fresta»*** |
+| **Shawlin** | ***Nostalgia*** — ***«tudo que eu faço é viver e ficar adicionando páginas»***, que é **a regra de registro deste trabalho enunciada por um poeta: não se apaga, acrescenta-se.** E ***«não preciso ser inocente pra manter o coração puro»***, que **separa inocência de integridade** — e é por isso que a proposta **não exige que ninguém seja bom** |
 | **Predella**, com **Síntese** e **Leal**, produção **DelliBeatz** | ***Hip Hop É Isso*** |
 | **Jorge Ben** · **Barão Vermelho** (**Goffi** e **Frejat**) · **CPM 22** (**Rodrigo Koala** e **Wally**) · **Neguinho da Beija-Flor** · **Bezerra da Silva** · **Charlie Brown Jr.** · **Kendrick Lamar** | **passagens citadas com crédito e verso curto**, e **cada atribuição foi conferida antes de ser escrita** |
 

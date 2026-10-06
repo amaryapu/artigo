@@ -176,6 +176,23 @@ that someone can.
 
 ---
 
+## 5.4 · On the record of our own errors
+
+This proposal is accompanied by a public corpus in which **every correction made to the
+work is retained alongside the text it replaced** — thirty-nine such corrections at time
+of writing, each numbered and dated, including four misattributions of authorship and one
+case in which a number describing the work itself had silently gone stale.
+
+> **We state this because the protocol requires it of others.** A record that is
+> silently amended provides no way to know it was amended; a record that is amended with
+> a note does, **and the note outlives the correction.**
+
+This is the same property the proposal claims for `M2`: **an apparatus that must document
+what it does produces, as a by-product, the record of what it did** — which is what makes
+the operation reversible later.
+
+---
+
 ## 6 · What would falsify this
 
 | | |
