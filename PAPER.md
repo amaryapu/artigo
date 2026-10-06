@@ -83,6 +83,31 @@ to a pre-existing class and acting on the class.
 **Both terms carry the same units** — time, money, attention, compute. **The ratio is
 dimensionless.**
 
+### 1.1.1 The image
+
+The clearest statement of what this ratio is about was not written by us. It is
+**Murica's**, in *O Síndico* (album *Sede*, 2020), sung from a window in **Ceilândia**,
+Brasília:
+
+> ### ***«Da janela da minha casa… eu vejo um mar de caixa d'água, em cima das casas /
+> ### Embaixo de cada caixa d'água dentro das casas / Tem as pessoas e seus mundos
+> ### particulares»***
+>
+> *From my window I see a sea of water tanks, on top of the houses. Underneath each water
+> tank, inside the houses, there are people and their particular worlds.*
+
+| | |
+|---|---|
+| **from the window** | **a sea** — a mass, an aggregate, a category |
+| ## **under each one** | ## **a house, people, and particular worlds** |
+
+> # **The aggregate view is not a distortion of categorisation. It *is* categorisation, seen from far enough away.**
+
+**`C8` is the ratio between those two distances.** Looking from the window costs nothing.
+Descending to each tank costs. **`M3` is what happens when only the window is paid for.**
+
+---
+
 ### 1.2 Why dimensionlessness matters, and what it does not license
 
 A dimensionless ratio applies across scales **because the unit cancels**, not because of
