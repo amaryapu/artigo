@@ -327,6 +327,31 @@ defeating its purpose. All are in `benchmark/`, executable.
 
 > ## **All ten pass. Reproduce with `./REPRODUZIR.sh`.**
 
+#### `A02` and `A03` are treadmills
+
+Two of the ten are Goodhart attacks: a declared omission that is irrelevant (`A02`), and a
+declared error cost that is arbitrarily high and unauditable (`A03`). **Both satisfy the
+condition with formal precision and move nothing.**
+
+> ### **`«Então pare de correr na esteira e vá correr na rua»`**
+> *Stop running on the treadmill and go run in the street.* — **Criolo**, *Menino Mimado*
+> (2017)
+
+**A treadmill measures perfectly — steps, distance, pace — and the displacement is zero.**
+That is Goodhart's problem stated as a surface rather than as a statistic.
+
+> ## **The remedies we had proposed for `A02` and `A03` were better metrics.** The verse
+> suggests a different class of remedy: **require displacement, not compliance.** Not *"is
+> the number auditable?"* but *"did anything move?"*
+
+Tracked as **`RG-17`**: formulate a displacement condition — **a check that fails when
+conformance is perfect and no outcome has moved.** We consider it the hardest of the
+three, and it is open.
+
+> ## **The street measures nothing, which is why arriving is the only evidence of having run.**
+
+
+
 The corresponding open problems are tracked as **`RG-5`** through **`RG-14`**, each paired
 with the attack it must defeat. **None is resolved.**
 
