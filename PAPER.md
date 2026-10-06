@@ -324,6 +324,44 @@ that someone can.
 
 ---
 
+### 5.2.2 What the verifier actually detects
+
+Auditing each benchmark case against the paper's own description of it yields a result we
+did not expect and must report:
+
+| | the paper claimed | **the verifier flags** | |
+|---|---|---|---|
+| `M1` | merging: filled and empty → same record | **`C5` · no declared absence** | **indirect** |
+| `M2` | preserved and not acted upon | **`C4` · contestation does not suspend the effect** | **confirms the class** |
+| `M3` | merging: two histories → one label | **the rule is not published** | **indirect** |
+| `M4` | erasure of testimony | **`ATTRIBUTED` carrying weight 0.85** | **indirect** |
+| `M5` | erasure of the channel | **`C3` · the person did not receive the record** | **direct** |
+| `M6` | merging: all cases → one output | **`C8` · the cost falls on the person** | ## **does not correspond** |
+| `M7` | merging: no author remains | **required field absent: responsible party** | **direct** |
+
+> # **Two of seven are direct. Four are signatures. One does not correspond.**
+
+> ## **The verifier does not detect the modes. It detects signatures of them in the record
+> — and a mode can occur without leaving its signature, which is exactly what the ten
+> attacks do.**
+
+**This strengthens §5.3.1 rather than weakening it:** the separation between the protocol
+and its verifier is **larger than we had realised.**
+
+**`M6` is the case that does not correspond.** "A category that absolves" and "cost
+asymmetry" are different claims, and the benchmark treats them as one. **Either `M6`
+needs a check of its own — a category whose application does not vary with the case — or
+the paper must stop claiming `M6` is detected.** Tracked as **`RG-15`**, open.
+
+**And `M2` independently confirms the reclassification in §2.1.** The verifier flags it
+through `C4` — *"late disclosure does not undo what has already been lived"* — and **`C4`
+is a requirement on action, not on information.** The code, written months before the
+taxonomy was corrected, **was already detecting `M2` by an action check.** Two independent
+derivations, one from the text and one from the implementation, **reached the same
+reclassification without either consulting the other.**
+
+---
+
 ### 5.3.1 Why propose a protocol whose checker fails 10/10
 
 This is the objection the result invites, and it must be answered rather than survived.

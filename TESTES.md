@@ -203,3 +203,65 @@ errada, e quem a derruba é `Landauer`:**
 > # **Nenhuma dessas mudanças pode acontecer depois de o nome ser permanente.**
 
 > ## **`[REGRA]`** **`R40`** — a ordem dos testes estava errada por três posições, e a correção veio de aplicar o próprio critério do artigo à lista do artigo. **Fica registrada, com a ordem anterior visível acima.**
+
+---
+
+# `T8` · EXECUTADO — o que o verificador acusa **não** é o que o artigo dizia
+
+**`[FATO]`** Cada caso do benchmark foi executado e **a acusação do verificador foi
+comparada com a descrição no artigo.** Resultado:
+
+| caso | o artigo dizia | **o verificador acusa** | veredito |
+|---|---|---|---|
+| **`M1`** campo ausente | fusão: cheio e vazio → mesmo registro | **`C5` · nenhuma ausência declarada** | ## **indireto** |
+| **`M2`** confissão | preservada e não acionada | **`C4` · a contestação não suspende o efeito** | ## **confirma a nova classe** |
+| **`M3`** reclassificação | fusão: duas histórias → um rótulo | **a regra não está publicada** | ## **indireto** |
+| **`M4`** desqualificação | apagamento do testemunho | **`ATRIBUÍDO` com peso 0,85** | ## **indireto** |
+| **`M5`** interrupção | apagamento do canal | **`C3` · a pessoa não recebeu o registro** | ## **direto** |
+| **`M6`** categoria que absolve | fusão: todos os casos → uma saída | **`C8` · o custo recai sobre a pessoa** | ## **não corresponde** |
+| **`M7`** delegação | fusão: nenhum autor | **campo obrigatório ausente: `responsavel`** | ## **direto** |
+
+> # **`[CÁLCULO]`** **Dois de sete são detecção direta. Quatro são indícios. E um não corresponde.**
+
+### O que isso obriga a dizer no artigo
+
+> ## **`[REGRA]`** **O verificador não detecta os modos. Detecta assinaturas deles no registro.**
+>
+> ## **E a diferença importa: um modo pode ocorrer sem deixar a assinatura** — é precisamente o que os dez ataques fazem.
+> ## **`[CÁLCULO]`** **Isto fortalece §5.3.1 em vez de enfraquecê-la: a separação entre protocolo e verificador é maior do que o artigo tinha percebido.**
+
+### `M6` é o caso que não corresponde
+
+**`[FATO]`** **`M6`** é acusado por **`C8` · o custo recai sobre a pessoa** — **e `T1` é
+acusado pela mesma família de checagem.**
+
+> ## **`[CÁLCULO]`** **«Categoria que absolve» e «assimetria de custo» são afirmações diferentes**, e o benchmark as trata como uma. **O caso `M6` precisa de uma checagem própria — uma categoria cuja aplicação não varia com o caso — ou o artigo deve parar de alegar que `M6` é detectado.**
+>
+> ## **`RG-15`** — **construir a checagem de `M6`, ou retirar a alegação.** **Fica aberta.**
+
+### E `M2` confirma a cristalização, por fora
+
+**`[CÁLCULO]`** O verificador acusa `M2` por **`C4` — «a contestação não suspende o
+efeito»**, com a mensagem **«revelação tardia não desfaz o que já foi vivido».**
+
+> # **`[CÁLCULO]`** **`C4` é uma exigência de `ação`, não de informação.**
+>
+> ## **E a cristalização, escrita antes de rodar este teste, havia concluído que **`M2` é falha de ação e não de preservação.**
+>
+> # **O código, escrito meses antes, já detectava `M2` por uma checagem de ação — e o texto é que o classificava errado.**
+>
+> ## **`[CÁLCULO]`** **Duas derivações independentes, uma do texto e uma do código, chegando à mesma reclassificação.** **É o tipo de concordância que vale alguma coisa, porque nenhuma das duas foi feita olhando a outra.**
+
+---
+
+## O estado da ordem, agora
+
+| | | |
+|---|---|---|
+| **`T2`** | as referências | ## ✅ **5/6** |
+| **`T7`** | a resposta ao `M2` | ## ✅ **no `PAPER`, §5.3.1** |
+| **`T8`** | instrumento × texto | ## ✅ **feito — e abriu `RG-15`** |
+| **`T4`** | leitura adversarial do texto | **próximo** |
+| **`T5`** | escopo e título | título já trocado; escopo pendente |
+| **`T1`** | equipe vermelha | **precisa de alguém de fora** |
+| ## **`T6` + `DOI`** | ## **o passo irreversível** | ## **por último** |
