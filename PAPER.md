@@ -287,6 +287,38 @@ that someone can.
 
 ---
 
+### 5.3.1 Why propose a protocol whose checker fails 10/10
+
+This is the objection the result invites, and it must be answered rather than survived.
+**A paper that reports total failure of its own instrument and then proceeds as if nothing
+happened is performing `M2` — confession without interruption — which is one of the very
+modes it describes.**
+
+The answer is that **the attacks separate two things the draft had conflated:**
+
+| | |
+|---|---|
+| **what the ten attacks defeat** | ## **the verifier** — a **syntactic** check on record form |
+| ## **what they do not touch** | ## **the inequality `C8_eff`** |
+
+Take **`A01`**, which delivers a conforming record and allows zero time to contest. It
+passes the checker. But **if a harmed person can point at that record and show the window
+was zero, `cost_system(error)` rises** — which is the term the protocol exists to raise.
+
+> ## **`A01` does not refute `C8_eff`. It demonstrates that a syntactic check cannot
+> enforce `C8_eff`.**
+
+> # **The ten attacks are therefore not the failure of the proposal. They are an
+> experimental separation of the protocol from its verifier — and the separation tells us
+> where the next instrument must operate: not on the form of the record, but on the cost
+> the record imposes on whoever issued it.**
+
+**`[LIMIT]`** We state the consequence plainly: **anyone deploying the verifier as a
+compliance check will be defeated, and the ten published attacks are how.** The verifier
+is a necessary condition on record form and **nothing more.**
+
+---
+
 ## 5.4 · On the record of our own errors
 
 This proposal is accompanied by a public corpus in which **every correction made to the

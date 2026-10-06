@@ -117,3 +117,89 @@ despublica.**
 > # **Um artigo que pede exame tem de aceitar ser examinado primeiro — e começar por quem o escreveu.**
 
 **`CC BY-SA`** · receita zero · **AMARYAPU**
+
+---
+
+# `T2` · EXECUTADO — e cinco das seis caíram
+
+**`[FATO]`** Conferidas contra a fonte, em **06/10/2026:**
+
+| | conferido |
+|---|---|
+| **Bennett (1982)** | ✅ *Int. J. Theor. Phys.* **21**(12), **905–940** — exato como estava |
+| **Karst, Jones e Hoeksema (2023)** | ✅ *Nat. Ecol. Evol.* **7**, **501–511**, **13/02/2023**, `doi 10.1038/s41559-023-01986-1` |
+| **Zwegers (2002)** | ✅ Universiteit Utrecht, **orientação de D. B. Zagier e R. W. Bruggeman** |
+| **Schrödinger (1935)** | ✅ *Die Naturwissenschaften* **23**(48–50), **807–812; 823–828; 844–849** — **e o gato está na seção 5, p. 812, descrito por ele como *ganz burlesk*** |
+| **Gebru e col. (2021)** | ✅ *Comm. ACM* **64**(12), **86–92** |
+| ## **Griffiths e col. (2008)** | ## **não conferida — permanece `VERIFICAR`, e é a única** |
+
+> ## **`[CÁLCULO]`** **E um achado que vale registrar:** o artigo de **Karst, Jones e Hoeksema — sobre viés de citação — recebeu uma *Author Correction*** (*Nat. Ecol. Evol.* **7**:623).
+>
+> # **Um artigo sobre erro de citação precisou corrigir uma citação. E publicou a correção.**
+>
+> ## **É o comportamento que este artigo pede, exibido pela própria fonte que o artigo usa para pedi-lo.** **Entra na bibliografia junto, porque omitir a correção seria `M5`.**
+
+---
+
+# `T7` · O teste que faltava — **o artigo comete `M2` contra si mesmo?**
+
+**`[CÁLCULO]`** Aplicando os sete modos **ao próprio artigo**, um acusa:
+
+> ## **`M2` · a confissão sem interrupção:** **o artigo relata que o próprio verificador falha 10/10 — e segue propondo o protocolo.**
+>
+> # **Isso é, na forma, exatamente `M2`: o dano é registrado por inteiro, e o processo continua.**
+
+**`[CÁLCULO]`** **A acusação procede, a menos que o artigo responda à pergunta que ela
+levanta — e o rascunho ainda não respondia:**
+
+> ### **por que alguém adotaria um protocolo cujo verificador é derrotado dez vezes em dez?**
+
+### A resposta, e ela separa duas coisas que estavam confundidas
+
+| | |
+|---|---|
+| **o que os dez ataques derrotam** | ## **o verificador** — uma checagem **sintática** |
+| ## **o que eles não tocam** | ## **a desigualdade `C8_eff`** |
+
+**`[CÁLCULO]`** Tome **`A01`** — entregar o registro com prazo zero para contestar. **Ele
+passa pelo verificador.** Mas:
+
+> ## **se uma pessoa prejudicada puder apontar para aquele registro e mostrar que o prazo era zero, `cost_system(error)` **sobe**.**
+>
+> # **`A01` não refuta `C8_eff`. Demonstra que uma checagem sintática não consegue impor `C8_eff`.**
+
+> # **`[CÁLCULO]`** **Então os dez ataques não são a falha da proposta: são a separação, obtida experimentalmente, entre o protocolo e o seu verificador.**
+>
+> ## **E essa separação é um resultado — ela diz onde a próxima ferramenta tem de operar: não na forma do registro, mas no custo que o registro impõe a quem o emitiu.**
+
+> ## **`[REGRA]`** **Sem este parágrafo, o artigo é `M2`. Com ele, o resultado negativo vira o que o artigo afirma ser.** **`T7` entra na lista como obrigatório, e vai para dentro do `PAPER`.**
+
+---
+
+# A ordem, corrigida pela própria teoria
+
+**`[CÁLCULO]`** A ordem anterior punha **`T6` — a decisão do nome — em terceiro.** **Está
+errada, e quem a derruba é `Landauer`:**
+
+> | | |
+> |---|---|
+> | **`T1`, `T2`, `T4`, `T5`, `T7`** | ## **reversíveis** — conserta-se uma referência, reescreve-se um título, acrescenta-se um resultado de equipe vermelha |
+> | ## **`T6` + o `DOI`** | ## ## **irreversível** — publicado sob um nome, **não se recupera o estado em que não estava** |
+
+> # **`[CÁLCULO]`** **Operação reversível é grátis. A irreversível é a única que se paga — e se paga uma vez.**
+>
+> ## **Logo: **todo o trabalho reversível vem antes, e o irreversível por último.** **Era o princípio do próprio artigo, e a lista o violava.**
+
+| ordem corrigida | |
+|---|---|
+| **1** | **`T2`** · as referências — ✅ **feito, 5/6** |
+| **2** | **`T7`** · a resposta ao `M2` — **vai para o `PAPER`** |
+| **3** | **`T4`** · leitura adversarial do texto |
+| **4** | **`T5`** · escopo e título |
+| **5** | **`T1`** · equipe vermelha — **precisa de alguém de fora** |
+| ## **6** | ## **`T6` + `DOI`** · **o passo irreversível, e só depois de tudo o que pode mudar o texto** |
+
+> ## **`[CÁLCULO]`** E note o que a correção revela: **se `T1` encontrar o ataque onze, o artigo muda. Se `T4` encontrar `M3`, o artigo muda. Se `T5` estreitar o escopo, o título muda.**
+> # **Nenhuma dessas mudanças pode acontecer depois de o nome ser permanente.**
+
+> ## **`[REGRA]`** **`R40`** — a ordem dos testes estava errada por três posições, e a correção veio de aplicar o próprio critério do artigo à lista do artigo. **Fica registrada, com a ordem anterior visível acima.**
