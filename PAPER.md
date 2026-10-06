@@ -196,6 +196,32 @@ distinguishable inputs into one output, destroying the information of which was 
 | | mode | the merge |
 |---|---|---|
 | `M1` | **the absent field** | a filled field and an empty field produce **the same record** |
+
+#### `M1`, illustrated
+
+The clearest illustration of the absent field in this corpus is a rap verse from 2020
+correcting a verse from 1967.
+
+**Caetano Veloso**, *Alegria, Alegria*, performed at the TV Record festival on **21 October
+1967** — the inaugural moment of Tropicália — opens: ***«Caminhando contra o vento / sem
+lenço sem documento»*** — *walking against the wind, without a kerchief, without a
+document.* **Carrying no papers was freedom.**
+
+**Murica**, *O Síndico* (Ceilândia, 2020), returns the line with a third item:
+***«Sem lenço nem documento ou conta no banco»*** — *no kerchief, no document, nor bank
+account.*
+
+> ## **In 1967, going without documents was a choice. In 2020, having no bank account is
+> having no provenance for an automated system.**
+>
+> **The field is not empty by error. It is empty because the person was never admitted to
+> the registry that fills it** — and `M1` then makes the record of someone with no account
+> indistinguishable from the record of someone not checked.
+
+**Fifty-three years, Bahia to Brasília, Tropicália to rap — and the transmission did not
+repeat the verse. It corrected it.**
+
+
 | `M2` | **confession without interruption** | the harm is recorded in full **and the process continues** |
 | `M3` | **reclassification** | two distinct histories produce **one label** |
 | `M4` | **witness disqualification** | testimony is discarded **by credential, not by content** |

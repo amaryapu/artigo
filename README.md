@@ -46,6 +46,8 @@ os erros cometidos no caminho.**
 
 > ## **[`A SEMENTE · BABILÔNIA`](SEMENTE-BABILONIA.md)** — **Síntese**, e **o terceiro custo**: ***«foco pra se manter iludido já que errou na decisão»*** deu à desigualdade um termo que faltava — **`cost_admit(err)`**, e a condição de persistência do erro **por aritmética, não por má-fé.**
 
+> ## **[`ÁGUA, SEMENTE, CULTIVO`](CULTIVO.md)** — **a tríade, e a mineração do que eu tinha comprimido.** Uma **semente guardada é `M2`** — informação preservada e não acionada — e **cultivar é a resposta à classe inerte.** Com os versos que uma linha de tabela não comportava, inclusive **os 53 anos entre «sem lenço sem documento» e «ou conta no banco».**
+
 > ## **[`A SEMENTE · CRIOLO`](SEMENTE-CRIOLO.md)** — ***Até Me Emocionei*** (2006), com o estudo etimológico. ***«Eu não fiz o rap, mas o rap foi que me fez»*** é **o aviso de não-propriedade deste artigo, dito dezenove anos antes em onze palavras.**
 
 > ## **[`OS TESTES`](TESTES.md)** — **a lista do que pode derrubar o artigo, feita contra ele.** `T0` reprodutibilidade (**feito, um comando**), `T2` as **seis referências não conferidas que bloqueiam a publicação**, `T1` a **equipe vermelha**, e `T3` a medição que o artigo pede e não executou.
