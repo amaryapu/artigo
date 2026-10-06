@@ -119,7 +119,8 @@
     "titulo": "decisão sem cadeia — não diz de onde veio",
     "mecanismo": "C3",
     "espera": [
-      "C3 · cadeia vazia"
+      "C3 · cadeia vazia",
+      "M6 · o_que_mudaria"
     ]
   }
 ]

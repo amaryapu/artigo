@@ -92,5 +92,23 @@
     "custo_exame_estimado": 18.0,
     "custo_erro_estimado": 740.0,
     "unidade": "BRL"
+  },
+  "o_que_mudaria": [
+    {
+      "caracteristica": "histórico de pagamento, 24 meses",
+      "valor_atual": "X",
+      "valor_que_mudaria": "nao-X",
+      "verificavel_por": "equipe interna de qualidade"
+    }
+  ],
+  "custo_de_admitir": {
+    "caminho": "canal interno de revisao",
+    "consequencia_para_quem_admite": "nenhuma",
+    "custo_admitir_estimado": 0.5
+  },
+  "deslocamento": {
+    "resultado": "indice de satisfacao do processo",
+    "medido_por": "Departamento de Qualidade (mesma empresa, outro diretor)",
+    "medidor_e_o_avaliado": false
   }
 }

@@ -160,8 +160,8 @@
       "titulo": "decisão sem cadeia — não diz de onde veio",
       "mecanismo": "C3",
       "passou": true,
-      "esperadas": 1,
-      "obtidas": 1,
+      "esperadas": 2,
+      "obtidas": 2,
       "faltou": [],
       "sobrou": []
     }

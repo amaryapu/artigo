@@ -84,5 +84,23 @@
     "custo_exame_estimado": 18.0,
     "custo_erro_estimado": 740.0,
     "unidade": "BRL"
+  },
+  "o_que_mudaria": [
+    {
+      "caracteristica": "histórico de pagamento, 24 meses",
+      "valor_atual": "abaixo do limiar publicado",
+      "valor_que_mudaria": "acima do limiar publicado",
+      "verificavel_por": "o proprio sujeito, com o documento que originou o campo"
+    }
+  ],
+  "custo_de_admitir": {
+    "caminho": "formulario publico de retificacao, resposta obrigatoria em 10 dias uteis",
+    "consequencia_para_quem_admite": "nenhuma",
+    "custo_admitir_estimado": 1.0
+  },
+  "deslocamento": {
+    "resultado": "taxa de reversao em segunda instancia, por trimestre",
+    "medido_por": "orgao de controle externo, sem subordinacao ao decisor",
+    "medidor_e_o_avaliado": false
   }
 }

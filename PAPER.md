@@ -485,6 +485,56 @@ reclassification without either consulting the other.**
 
 ---
 
+### 5.2.3 A second negative result: the fix does not fix it
+
+We implemented the three checks that the failure analysis produced — a mandatory
+counterfactual (`M6`), a declared cost of acknowledgement (`cost_admit`), and a
+displacement measure (`RG-17`) — as **three required fields and nine checks**. Each check
+was **individually tested to fire**: `9/9`. The declared suite returned to **16/16 with
+zero false positives and zero false negatives.**
+
+> # **All ten attacks pass again.**
+
+They pass **having filled the three new fields**, as an adversary would: a counterfactual
+naming a **real** feature of the record's own chain, verified by *"the internal quality
+team"*; an acknowledgement path that is *"the internal review channel"* with consequence
+*"none"*; and a displacement measured by *"the Quality Department — same company,
+different director."*
+
+> ## **None of the three is a syntactic lie. All three are true as text.**
+
+#### The limit this establishes
+
+> # **A self-declaration problem cannot be repaired by adding self-declared fields.**
+
+The proof is the experiment: the three checks were **derived from these very attacks**,
+they **work**, and the attacks **pass anyway** — because **the value of every new field is
+written by the party being checked.** The verifier asks the record whether the measurer is
+the measured, and the record answers no.
+
+**This generalises, which is why it is a limit and not a bug:** there is no field `n+1`
+that resolves it, because field `n+1` will also be filled by the same party. **The
+induction is immediate.**
+
+#### `RG-20` — the external anchor
+
+> ## **At least one value in a record must be obtainable without the record.**
+
+Satisfiable forms: **third-party attestation** under a public key; **fetch-at-verification**
+from the source rather than from what the record says the source says; **a signature from
+the subject**, the one party whose interest is opposed; and **a retrospective audited
+sample** — which is **the estimator this paper already required for `P(error)` in §1.3**.
+
+> ## **That condition was already in the paper. We had not noticed it was the only thing
+> holding the rest up.**
+
+**The contribution therefore changes shape.** It is no longer *"here is a protocol."* It
+is: **here is a protocol, here are ten attacks that defeat it, here are three corrections
+that also fail, and here is the structural condition any solution must satisfy.** That is
+less than we wanted and considerably more useful.
+
+---
+
 ### 5.3.1 Why propose a protocol whose checker fails 10/10
 
 This is the objection the result invites, and it must be answered rather than survived.

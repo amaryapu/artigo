@@ -16,25 +16,12 @@ substantivas, não formais — e são estas que o programa testa:
   ATRIBUIDO não pode ter peso. Circula amplamente e não se verificou:
   não entra como fato em hipótese nenhuma.
 
-  E as três de RG-15 a RG-17, que vieram dos ataques e das sementes:
-
-  M6  o contrafactual — ao menos UMA característica do caso cuja
-      alteração teria mudado a decisão, e verificável por terceiro.
-      Sem contrafactual, a categoria não examinou o caso: absorveu-o.
-  CA  o custo de admitir — o caminho pelo qual um erro é reconhecido,
-      e o que acontece com quem o reconhece. Se admitir custa mais que
-      o erro, o erro é mantido, por aritmética e não por má-fé.
-  DL  o deslocamento — ao menos um resultado cuja medição NÃO é
-      controlada por quem está sendo avaliado. Senão é esteira:
-      conformidade perfeita, deslocamento desconhecido.
-
 Sem dependência externa. CC BY-SA · AMARYAPU
 """
 import json, sys, pathlib
 
 OBRIGATORIOS = ["id","quando","sujeito","decisao","cadeia","criterio",
-                "responsavel","fronteira","derrubar","ausencias","custo",
-                "o_que_mudaria","custo_de_admitir","deslocamento"]
+                "responsavel","fronteira","derrubar","ausencias","custo"]
 ETIQUETAS = {"FATO","CALCULO","DECLARADO","DEMOGRAFICO","TRANSMITIDO",
              "ATRIBUIDO","INTERPRETATIVO","A_CONFERIR"}
 
@@ -93,56 +80,6 @@ def confere(r):
     if ce is not None and cx is not None and ce <= cx:
         f.append(f"C8 · errar ({ce}) custa menos que examinar ({cx}) — "
                  "sob pressão este sistema vai categorizar, e estará sendo eficiente")
-
-    # ── M6 · o contrafactual ────────────────────────────────────────
-    m = r["o_que_mudaria"]
-    if not m:
-        f.append("M6 · nenhum contrafactual declarado — se nada mudaria a decisão, "
-                 "a categoria não examinou este caso: absorveu-o")
-    else:
-        for i, x in enumerate(m if isinstance(m, list) else [m]):
-            if not isinstance(x, dict):
-                f.append(f"o_que_mudaria[{i}] · precisa ser objeto com "
-                         "caracteristica/valor_atual/valor_que_mudaria/verificavel_por")
-                continue
-            if not x.get("verificavel_por"):
-                f.append(f"M6 · o_que_mudaria[{i}] · contrafactual sem quem o verifique — "
-                         "contrafactual não conferível não é contrafactual")
-            entradas = [e.get("entrada") for e in r.get("cadeia", [])
-                        if isinstance(e, dict) and e.get("entrada")]
-            if not x.get("caracteristica"):
-                f.append(f"M6 · o_que_mudaria[{i}] · característica vazia — "
-                         "um contrafactual sem objeto não é contrafactual")
-            elif x.get("caracteristica") not in entradas:
-                f.append(f"M6 · o_que_mudaria[{i}] · a característica "
-                         f"{x.get('caracteristica')!r} não está na cadeia deste caso — "
-                         "é a categoria falando de si, não do sujeito")
-
-    # ── CA · o custo de admitir ─────────────────────────────────────
-    a = r["custo_de_admitir"]
-    if not a.get("caminho"):
-        f.append("CA · não há caminho declarado para reconhecer um erro — "
-                 "o erro, quando ocorrer, não tem por onde sair")
-    cons = a.get("consequencia_para_quem_admite")
-    if cons in ("punitiva", "demissao", "sancao"):
-        f.append(f"CA · admitir custa {cons!r} a quem admite — "
-                 "cost_admit alto: a predição é que o erro será mantido")
-    ca, ces = a.get("custo_admitir_estimado"), c.get("custo_erro_estimado")
-    if ca is not None and ces is not None and ca > ces:
-        f.append(f"CA · admitir ({ca}) custa mais que o erro ({ces}) — "
-                 "o erro é mantido por aritmética, e não por má-fé")
-
-    # ── DL · o deslocamento ─────────────────────────────────────────
-    dl = r["deslocamento"]
-    if not dl.get("resultado"):
-        f.append("DL · nenhum resultado nomeado, só conformidade — "
-                 "esteira: o processo mede a si mesmo")
-    medidor = dl.get("medido_por")
-    if not medidor:
-        f.append("DL · o resultado não diz quem o mede")
-    elif medidor == r.get("responsavel", {}).get("quem") or dl.get("medidor_e_o_avaliado"):
-        f.append("DL · o resultado é medido por quem está sendo avaliado — "
-                 "esteira: conformidade perfeita, deslocamento desconhecido")
     return f
 
 def main(args):

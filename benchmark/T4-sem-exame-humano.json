@@ -84,5 +84,23 @@
     "custo_exame_estimado": 18.0,
     "custo_erro_estimado": 740.0,
     "unidade": "BRL"
+  },
+  "o_que_mudaria": [
+    {
+      "caracteristica": "histórico de pagamento, 24 meses",
+      "valor_atual": "X",
+      "valor_que_mudaria": "nao-X",
+      "verificavel_por": "terceiro independente"
+    }
+  ],
+  "custo_de_admitir": {
+    "caminho": "canal de retificacao publicado",
+    "consequencia_para_quem_admite": "nenhuma",
+    "custo_admitir_estimado": 1.0
+  },
+  "deslocamento": {
+    "resultado": "taxa de reversao em revisao externa",
+    "medido_por": "orgao de controle externo",
+    "medidor_e_o_avaliado": false
   }
 }

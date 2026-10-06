@@ -54,6 +54,8 @@ os erros cometidos no caminho.**
 
 > ## **[`A SEMENTE · CRIOLO`](SEMENTE-CRIOLO.md)** — ***Até Me Emocionei*** (2006), com o estudo etimológico. ***«Eu não fiz o rap, mas o rap foi que me fez»*** é **o aviso de não-propriedade deste artigo, dito dezenove anos antes em onze palavras.**
 
+> ## **[`RG-19 · O LIMITE`](RG-19-O-LIMITE.md)** — **implementei as três correções e os dez ataques passaram de novo.** E a falha é um teorema: **não se conserta autodeclaração com mais autodeclaração** — o campo `n+1` também será preenchido por quem está sendo conferido. A saída é **`RG-20`: ao menos um valor que o emissor não pôde escrever.**
+
 > ## **[`AS QUATRO QUE FALTAVAM`](RESOLVIDAS.md)** — **`RG-15` a `RG-18`, fechadas**, e cada uma virou **campo obrigatório** em vez de frase: o **contrafactual** para `M6`, o **custo de admitir**, a **métrica fora da mão de quem é medido**, e **`C5` como o que separa celeiro de cofre.
 
 > ## **[`T4 · A LEITURA ADVERSARIAL`](T4-LEITURA-ADVERSARIAL.md)** — **sete achados do artigo cometendo o que ele descreve.** Quatro corrigidos, dois mantidos com a ressalva fortalecida, **e um que exige gente de fora.**
