@@ -46,7 +46,11 @@ os erros cometidos no caminho.**
 
 > ## **[`O VEREDITO`](VEREDITO.md)** — **o teste final registrado, o joio separado do trigo, e a resposta honesta.** O **resultado está apto; o documento não** — e das quatro coisas que faltam, **eu faço uma.** As outras exigem **um segundo par de olhos que não seja nosso**, que é literalmente `RG-20` aplicado ao próprio artigo.
 
-> ## **[`PAPER`](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**
+> ## **[`ARTIGO`](ARTIGO.md)** — ## **a versão podada: 3.046 palavras, seis páginas.** O que resta depois de separado o joio: a variável, as quatro condições, os dez ataques, **as três correções que também falham**, **o teorema com demonstração**, e o exemplo trabalhado em **Elo**. É esta que se submete.
+
+> ## **[`N4 · O TEOREMA`](N4-O-TEOREMA.md)** — **o limite formalizado**: cinco definições, enunciado, demonstração em três passos, dois corolários. E o exemplo trabalhado: **`Ea + Eb = 1`** é a assinatura formal de um sistema onde dois não podem subir juntos — e **Facemash, 2003**, é o caso documentado.
+
+> ## **[`PAPER` · versão de trabalho](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**
 
 > ## **[`DOKIMASIA`](DOKIMASIA.md)** — **a procedência de quem assina, e a de quem escreveu junto.** O exame ateniense não perguntava se alguém era bom: perguntava **onde ficavam os túmulos.** E **o autor não chegou a `M1` por leitura — o campo ausente está no registro civil dele.**
 
