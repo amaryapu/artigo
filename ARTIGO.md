@@ -360,6 +360,52 @@ a **formally conformant and substantively empty AIA**. We do not know whether th
 impossibility has been stated before; **finding out is the open question `N1-g`, and it
 decides whether §6 is new.**
 
+**`[LIMIT] A second collision, 7 October 2026 — and it costs us the diagnosis.** We read
+**Agbese, Mohanani, Khan and Abrahamsson**, *Implementing AI Ethics: Making Sense of the
+Ethical Requirements*, **EASE '23: 62–71**, `DOI 10.1145/3593434.3593453` (CC BY 4.0).
+Ten interviews with Finnish software executives in middle and higher management. **`PEC2`:
+ethical requirements have technical and legal value and *no financial value*.** **`PEC4`:
+they are implemented *as legal requirements*** — and legal compliance does not make a system
+ethically sound (Morley et al 2021). The paper cites as already established: **ethics
+washing** (Bietti 2021), the inefficacy of guidelines (Hagendorff 2020), ethics ignored in
+startup environments (Vakkuri et al 2020), the 84-document landscape (Jobin et al 2019), and
+ethics-based auditing (Mökander and Floridi 2021).
+
+**We therefore withdraw any claim of novelty for the *diagnosis*.** That formally conformant,
+substantively empty compliance is produced has had a name and a literature since 2019. **What
+may remain ours is narrower: not that it happens, but that no syntactic verifier can exclude
+it** over an entirely self-declared record. That distinction is the whole of §6, and it holds
+only if `N1-g` closes in our favour.
+
+**What the collision strengthens is `D5`.** The theorem assumes an issuer with write control
+and knowledge of `V`, and the standing objection was that this presumes bad faith. **It does
+not, and now it does not need to be assumed.** Hagendorff, quoted by the paper: *«since
+ethical requirements currently lack enforcement mechanisms, most businesses voluntarily
+ignore them in implementation. As such, caution is needed in society in entrusting the
+implementation of AI ethics to companies.»* **`D5` is not an adversarial posture; it is the
+ordinary economics of the issuer, described by ten issuers.** **`[LIMIT]`** This is the sign
+of the gradient, **not a measurement of `C8`** — `T3` remains open and this reading does not
+touch it.
+
+**And the paper's own declared limitation is our question.** Of the four-layer ethical
+requirements stack they propose, they write that it *«does not emphasize how management can
+identify ethical requirements.»* **That is where `D4` lives:** the stack presumes someone
+*declares* the risks and contains nothing that verifies the declaration. The same boundary,
+found by interviews in Finland rather than by a verifier in Curitiba.
+
+**`[OPEN] N1-h.** The paper names **IEEE Std 7000-2021**, *Model Process for Addressing
+Ethical Concerns during System Design* (82 pp.), with its concept of **ethical requirement
+value (`ERV`)`**. **We did not know this standard existed.** It must be read in full before
+submission, and the protocol must either align with it or state explicitly where and why it
+diverges. **`[LIMIT]`** Not having known it is a defect of this paper's preparation, not of
+the standard.
+
+**`[LIMIT] `N1-g` now has an address.** That Agbese et al review this literature and cite no
+impossibility result is **weak evidence at best**: their focus is managerial, and a theorem
+published in theoretical computer science, information economics or mechanism design would
+have **no reason** to appear in a software-engineering review. **The search for `N1-g` must be
+run in those three literatures, and it has not been.**
+
 **`[LIMIT] Related work remains incomplete.** No systematic search was performed; the author
 has no institutional access. **This is a real gap and declaring it does not close it.** We
 note one collision found on a first casual look: **Moreira, Lima and Santos (2024)**,
