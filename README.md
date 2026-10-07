@@ -42,6 +42,8 @@ os erros cometidos no caminho.**
 
 > ## **[`A SEMENTE · O VÉU`](SEMENTE-O-VEU.md)** — **DJ Jamaika**, Ceilândia, **1998**: ***«um véu que separa o joio do trigo»***. **Não uma linha — um véu**, que deixa ver que há dois lados e não qual coisa está em qual. E ***«o bem e o mal se dividem na mira»*** — **a divisão é feita por quem aponta.**
 
+> ## **[`N1 · O PRIMEIRO ACERTO`](N1-PRIMEIRO-ACERTO.md)** — **«confluência» já é termo técnico publicado, em português, desde 2024 — e significa outra coisa.** Colisão de vocabulário declarada. **E foi achada no primeiro olhar casual**, o que é a pior notícia sobre o estado da busca e a melhor sobre a necessidade dela.
+
 > ## **[`O VEREDITO`](VEREDITO.md)** — **o teste final registrado, o joio separado do trigo, e a resposta honesta.** O **resultado está apto; o documento não** — e das quatro coisas que faltam, **eu faço uma.** As outras exigem **um segundo par de olhos que não seja nosso**, que é literalmente `RG-20` aplicado ao próprio artigo.
 
 > ## **[`PAPER`](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**

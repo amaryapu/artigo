@@ -596,6 +596,28 @@ This proposal is adjacent to, and does not replace, several established lines:
 | **Right-to-explanation provisions** (e.g. GDPR Art. 22 and successors) | **establish a legal entitlement.** This proposal is about **the cost structure that determines whether the entitlement is exercised**, which is an engineering question and not a legal one |
 | **Provenance systems** (W3C PROV and descendants) | **supply the data model.** This proposal is not a competing model; **the schema here can be expressed in PROV**, and the contribution is the four conditions and the cost inequality, not the serialisation |
 
+#### A terminological collision we must declare
+
+**Moreira, Lima and Santos (2024)**, *Revista Campo de Públicas* **3(1):233–246**
+(Fundação João Pinheiro), use **«confluência»** as a technical term in Brazilian public
+policy, **for the intersection of race, gender and class in determining vulnerability and
+resilience** under climate emergency.
+
+> ## **The word is the same. The concept is not.** Their *confluência* is **neighbouring
+> intersectionality**: factors that **combine** to produce an effect none produces alone.
+> Ours is **logical reversibility** in Bennett's sense: inputs that **do not merge**, and a
+> merge that carries a cost.
+
+**There is no contradiction — there is a vocabulary collision, and we declare it rather
+than let a reviewer find it.** We note the point at which the two uses meet: **in both,
+the value lies in refusing to reduce** — a population to a single factor, there; two
+inputs to one output, here. **That is reason to cite with regard, not to dispute the
+term.**
+
+> ## **`[LIMIT]`** **This reference was found on the first casual look at the literature.**
+> It is evidence that a systematic search will find more, **and that this paper must not be
+> submitted before one is done.**
+
 > ## **`[LIMIT]`** **This section is incomplete and is the part of the paper most in need of
 > expert review.** The author has no institutional access to the literature and has not
 > performed a systematic search. **It is stated as a gap rather than papered over.**
