@@ -103,6 +103,22 @@ Alma*, *O Quarto Elemento*, *Jornada Rumo à Intuição*, *Cubo*, *As Quatro Dam
 > ## **Registrado aqui, e não apagado, porque é o segundo caso documentado neste corpus de
 > uma regra sendo violada por seu próprio autor dentro de horas — o primeiro foi `R46`.**
 
+### `IV-c` · E aconteceu uma terceira vez, na mesma hora
+
+**`FATO`** · Minutos depois, busquei o mesmo autor na **Google Books API** e relatei
+`total: None`, tratando-o como **zero resultados**. Era **cota esgotada**: a chamada seguinte
+devolveu `HTTP 429 — "Quota exceeded for quota metric 'Queries' [...] RESOURCE_EXHAUSTED"`.
+**A API não respondeu zero. Ela não respondeu.**
+
+> # **`CÁLCULO`** **Três vezes no mesmo dia, o mesmo erro, em três instrumentos diferentes:**
+> ### **`R46` — li «a leitura está errada» onde o fato era **eu estar confrontando outro documento**.**
+> ### **`OpenLibrary` — li «o autor não existe» onde o fato era **cobertura de catálogo**.**
+> ### **`Google Books` — li «zero resultados» onde o fato era **cota esgotada**.**
+>
+> ## **`CÁLCULO`** **Em todos os três, **o instrumento devolveu uma ausência e eu a reportei como uma negação.** É a distinção entre `V(r) = reject` e `V` não ter sido executado — e um verificador que não sabe distinguir as duas coisas **aceita silêncio como veredito.**
+> # **Isto não é anedota. É um modo de falha que **não está no catálogo `M1–M7`** e que atinge diretamente a validade de `N1-g`: cada `0` que eu reportei hoje precisa ser **reexecutado com verificação de que a consulta de fato rodou.**
+> ## **`REGRA` · `RG-22` — **distinga ausência de resposta de resposta negativa.** Toda busca deve registrar **se o instrumento respondeu**, antes de registrar **o que respondeu.** Um `0` sem prova de execução não é dado.
+
 ---
 
 ## V · Registro de procedência de um item do corpus
