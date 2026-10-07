@@ -334,7 +334,33 @@ nor an erasure. (3) Show that lowering `C8_eff` does not change behaviour in a c
 setting — **the most direct test, and the one we are least able to perform.** (4) Exhibit
 a syntactic verifier that satisfies the theorem's hypotheses and excludes the behaviour.
 
-**`[LIMIT] Related work is incomplete.** No systematic search was performed; the author
+**`[LIMIT] Related work is incomplete — but no longer empty, and the first collision is
+substantial.** On 7 October 2026 we read **Acioly, Mendes, Silva and Monteiro Neto**,
+*Accountability in Brazilian Artificial Intelligence Regulation from the Algorithmic Impact
+Assessment*, **AIRe 1|2024:86–97**, `DOI 10.21552/aire/2024/1/10`. It establishes that the
+**Algorithmic Impact Assessment (AIA)** is a named instrument with a taxonomy
+(**Selbst 2021**, *Harvard JOLT* 35(1):117 — NEPA, DPIA and questionnaire models), with
+**Reisman et al 2018** (AI Now) specifying five elements including **external auditors** and
+**due process for affected parties to challenge inadequate assessments**, and with
+**Bovens 2007** (*ELJ* 13(4):447) requiring that the forum be able to **question and judge,
+with consequences**. **Brazil's Bill 2,338/2023, Art. 24**, already mandates recording the
+system's operating logic, adverse-effect probability, severity and mitigation; **Art. 26**
+makes the conclusions public.
+
+**We therefore withdraw any claim of novelty for the institutional proposal.** The
+contradiction field is a **formalisation** of a requirement stated in legal language by
+Reisman et al in 2018; we did not know this, and declaring it late does not make it ours.
+
+**What the collision strengthens is the negative result.** Bill 2,338 Art. 13 assigns the
+preliminary assessment **to the supplier**, and Reisman et al list **self-assessment** as
+element one. **That is `D4` exactly.** The theorem in §6 therefore applies directly to the
+instrument Brazil is about to legislate: **over an entirely self-declared assessment, no
+syntactic verifier excludes the targeted behaviour.** Our ten attacks are ten ways to produce
+a **formally conformant and substantively empty AIA**. We do not know whether this
+impossibility has been stated before; **finding out is the open question `N1-g`, and it
+decides whether §6 is new.**
+
+**`[LIMIT] Related work remains incomplete.** No systematic search was performed; the author
 has no institutional access. **This is a real gap and declaring it does not close it.** We
 note one collision found on a first casual look: **Moreira, Lima and Santos (2024)**,
 *Revista Campo de Públicas* **3(1):233–246**, use **«confluência»** as a technical term for
