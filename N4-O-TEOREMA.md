@@ -99,6 +99,65 @@ entre dois avaliados `a` e `b` a partir de dois números, `Ra` e `Rb`:
 
 > # **`[CÁLCULO]`** **E em todos os casos, `Ea + Eb = 1`, exatamente.**
 
+### `0` · **`R44`** — a leitura da fotografia, e eu assumi sem declarar
+
+> ## **`[REGRA]`** **Um leitor externo apontou que a fotografia é ambígua, e que eu resolvi a ambiguidade sem dizer que estava resolvendo. Ele está certo, e a correção entra antes da análise.**
+
+**`[FATO]`** A imagem manuscrita mostra, na segunda linha, algo que **se lê literalmente**
+como **`1 + 10(Ra − Rb)/400`** — **dez `vezes` a diferença**, e não **dez `elevado a`**.
+**`[FATO]`** A primeira linha está **mais borrada ainda**, e o operador no numerador **não
+é determinável com segurança a partir da imagem.**
+
+**`[CÁLCULO]`** · **As duas leituras, refeitas:**
+
+| `Ra` | `Rb` | **potência** `Ea` | `Eb` | **soma** | **literal** `Ea` | `Eb` | **soma** |
+|---|---|---|---|---|---|---|---|
+| 1500 | 1500 | 0,50000 | 0,50000 | **1** | 1,00000 | 1,00000 | **2** |
+| 1600 | 1400 | 0,75975 | 0,24025 | **1** | **−0,25000** | 0,16667 | **−0,083** |
+| 1500 | 1540 | 0,44269 | 0,55731 | **1** | 0,50000 | ## **indefinido** | — |
+| 1500 | 1600 | 0,35994 | 0,64006 | **1** | 0,28571 | **−0,66667** | **−0,381** |
+
+> # **`[CÁLCULO]`** **Na leitura literal, há singularidade em `ΔR = ±40`, e a função produz valores negativos e maiores que 1.** **Se `E` pretende ser probabilidade, a expressão está mal condicionada — e a crítica procede inteiramente.**
+
+> ## **`[REGRA]`** **E o que eu fiz, registrado:** **reconheci o padrão como a fórmula de Elo e computei com `10^x`, sem ler o que estava escrito.**
+>
+> ## **Isso é `M3` cometido por mim: encaixar um dado numa categoria conhecida porque ela é familiar, e não porque o dado a sustenta.**
+> # **E é exatamente o que este artigo descreve. A diferença entre o certo e o errado aqui não foi o resultado — foi `eu não ter declarado que estava inferindo`.**
+
+**`[CÁLCULO]`** · **O que se pode e o que não se pode afirmar:**
+
+| | |
+|---|---|
+| **`[FATO]`** | **a imagem usa `Ea`, `Eb`, `Ra`, `Rb`, o numeral `10` e o numeral `400`** |
+| **`[CÁLCULO]`** | **na leitura por potência, isto é exatamente a fórmula de resultado esperado do Elo, e `Ea + Eb = 1`** |
+| **`[CÁLCULO]`** | **na leitura literal, não é probabilidade: tem singularidade e valores fora de `[0,1]`** |
+| ## **`[A CONFERIR]`** | ## **`EL1` — a imagem, nesta resolução, não decide entre as duas.** **Resolve-se com uma foto mais nítida, e não com argumento** |
+
+> ## **`[REGRA]`** **A análise que segue vale `sob a leitura por potência`, e está marcada assim.** **Se a foto mostrar outra coisa, a seção cai — e o teorema de `§II` não depende dela.**
+
+---
+
+### `0-bis` · E a observação que o cético não fez — e ela o favorece
+
+**`[CÁLCULO]`** A crítica propõe, como construção **«mais natural»** para probabilidades
+competitivas, a **função logística**:
+
+> ### **`Pa = 1 / (1 + e^(−k(Ra − Rb)))`**
+
+**`[CÁLCULO]`** · **Mas `10^(x/400) = e^(x·ln10/400)`.** Logo, com
+
+> ### **`k = ln(10)/400 = 0,005756463…`**
+
+**a fórmula do Elo `é` essa logística.** **Conferido: para `Ra`=1600, `Rb`=1400, as duas
+dão `0,759746926648`, idênticas até o décimo segundo decimal.**
+
+> # **`[CÁLCULO]`** **A alternativa proposta como «mais natural» é algebricamente a mesma coisa que o Elo, com `k` fixado em `ln(10)/400`.**
+>
+> ## **E isso não diminui a crítica — `reforça` a parte dela que importa:** **se a leitura literal estiver certa, a expressão da foto não é logística nem Elo, e aí a objeção é fatal.** **Se a leitura por potência estiver certa, é logística e é Elo, e a objeção sobre má condicionamento não se aplica.**
+> ## **`[CÁLCULO]`** **Tudo depende do símbolo borrado — que é precisamente onde o cético parou, e ele parou no lugar certo.**
+
+---
+
 ### `1` · A soma unitária é a assinatura formal da não-confluência
 
 > ## **`Ea + Eb = 1` é identidade algébrica, não propriedade empírica.**

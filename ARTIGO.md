@@ -294,7 +294,8 @@ The **Elo** expected-score formula computes, from two scalars:
 
 > **`Ea = 1 / (1 + 10^((Rb − Ra)/400))`** ; **`Eb = 1 / (1 + 10^((Ra − Rb)/400))`**
 
-**`Ea + Eb = 1` identically.** There is no state in which both rise: **one party's gain is
+**`Ea + Eb = 1` identically**, and equivalently `Ea = 1/(1 + e^(−k(Ra−Rb)))` with
+`k = ln(10)/400` — **the Elo formula is a logistic function.** There is no state in which both rise: **one party's gain is
 by construction the other's loss.** And the update is **path-merging in Bennett's sense** —
 distinct match histories produce the same rating, and **the rating does not recover which
 games produced it.**
@@ -303,6 +304,14 @@ games produced it.**
 an estimator of *encounter outcome* as a description of *a person's worth*. **The formula
 does not protect against this — it does not know what `a` and `b` are.** This is the
 theorem in closed form: **`V` knows only what is in `r`; Elo knows only `Ra` and `Rb`.**
+
+**`[LIMIT]`** This example was prompted by a handwritten photograph, and an external
+reader correctly noted that **the image is ambiguous between `10^x` and `10·x`**, and that
+we had resolved the ambiguity by pattern-matching to Elo **without declaring the
+inference.** Under the literal reading the expression has a singularity and leaves `[0,1]`;
+under the power reading it is Elo. **The source image does not decide it at that
+resolution.** We record this because **it is the paper's own failure mode committed by its
+authors**, and because **the theorem in §6 does not depend on this example.**
 
 **`[FACT]`** The documented case is **Facemash** (Harvard, 2003), which ranked students by
 attractiveness using Elo over **identification photographs obtained without permission**
