@@ -406,7 +406,23 @@ published in theoretical computer science, information economics or mechanism de
 have **no reason** to appear in a software-engineering review. **The search for `N1-g` must be
 run in those three literatures, and it has not been.**
 
-**`[LIMIT] Related work remains incomplete.** No systematic search was performed; the author
+**`[LIMIT] A first search was performed, 7 October 2026, and it was thin.** We searched the
+open OJS portal of Centro Universitario de Brasilia (13 journals, no login), concentrating on
+the **Revista Brasileira de Politicas Publicas** -- Brazilian public law, published in
+Brasilia, where Bill 2,338 is being debated. **`autodeclaracao` and `auditoria algoritmica`
+returned zero.** **`[LIMIT]`** That engine does not do phrase matching -- a query for
+*avaliacao de impacto algoritmico* returned a paper on neuroimaging -- **so a zero result is
+weak evidence, not strong.** One relevant paper was found: **Leon Silva (2026)**, *Algoritmos
+e inteligencia artificial en la gestion migratoria estatal*, **RBPP 16(1)**,
+`DOI 10.5102/rbpp.v16i1.10830`, which concludes that although no AI-specific regulation
+exists, Inter-American and Chilean law already supply parameters **to limit the algorithmic
+power of the State**. That is Acioly's move applied to another jurisdiction, on a population
+that often **has no forum at all** in the state deciding about it -- `C4` at its limit. **No
+theorem, no verifier, no impossibility claim.** The sentence *no systematic search was
+performed* is hereby withdrawn and replaced by a worse one to admit and better to hold: **a
+search was performed, in the right place for the law and the wrong place for the theorem.**
+
+**`[LIMIT] Related work remains incomplete.** The search above covers one portal; the author
 has no institutional access. **This is a real gap and declaring it does not close it.** We
 note one collision found on a first casual look: **Moreira, Lima and Santos (2024)**,
 *Revista Campo de Públicas* **3(1):233–246**, use **«confluência»** as a technical term for
