@@ -178,3 +178,89 @@ autor:**
 > ## **O Kaingang já tinha posto uma terceira marca na díade, e eu li o `ianhiá` quatro vezes sem entender que ele era o aviso.**
 
 **`CC BY-SA`** · receita zero · **AMARYAPU**
+
+---
+
+# ADENDO · a física lida até o fim (7/out/2026)
+
+A versão acima usou o problema dos três corpos **como analogia** e parou ali.
+A correção recebida foi justa: era para **confluir**, não comparar. Lida até o
+fim, a mecânica celeste diz algo que este corpus não esperava, e **corrige uma
+imprecisão de L1**.
+
+## O que efetivamente se estabelece
+
+| | | |
+|---|---|---|
+| dois corpos | solução exata em forma fechada, para sempre | |
+| três corpos | **não há solução analítica geral em forma fechada**; o movimento é caótico | |
+| Euler, 1767 | três corpos **colineares** | solução exata, configuração especial |
+| Lagrange, 1772 | três corpos em **triângulo equilátero** | solução exata, configuração especial |
+| Moore, 1993 | três **massas iguais** em órbita em forma de oito | `Phys. Rev. Lett.` 70, 3675 |
+
+## A correção: há DUAS portas para a estabilidade, e são opostas
+
+**Porta 1 — desigualdade extrema.** Os pontos triangulares L4/L5 são estáveis
+**apenas se a razão entre as massas exceder ≈ 24,96** — critério de **Edward
+Routh**, `μ_crit = ½(1 − √69/9) ≈ 0,03852`, equivalente a `μ(1−μ) < 1/27`.
+É o caso Sol–Terra, Sol–Júpiter, e Terra–Lua por margem estreita.
+
+**Porta 2 — igualdade exata.** A órbita em forma de oito (Moore 1993;
+Chenciner & Montgomery, *Annals of Mathematics* **152**, 881–901, 2000) existe
+para **três massas iguais**, e **Roberts provou que é linearmente estável**.
+Grupo de simetria `D₃ × ℤ₂`, ordem 12. As três massas percorrem **a mesma
+curva**, nenhuma em órbita de nenhuma — o termo da literatura é **coreografia**.
+
+**No meio — desigualdade moderada sem domínio — há caos.**
+
+> Consequência para este corpus: a rejeição da leitura hierárquica (documentada
+> em `complementar não é hierarquia`) tem custo calculável. Das duas portas, a
+> igualdade é a que **não exige que um corpo pese vinte e cinco vezes mais**.
+
+A curva da porta 2 é a **lemniscata**, `∞`. Registra-se como `[FATO]` de
+mecânica celeste; a leitura simbólica fica como `[INTERPRETATIVO]`.
+
+## E a floresta escura é o N4 deste corpus, com outro nome
+
+A tese central da trilogia de Liu Cixin deriva, de duas premissas declaradas
+(sobrevivência como necessidade primária; matéria total constante) mais a
+**cadeia de suspeita** e a **explosão tecnológica**, a conclusão de que toda
+civilização deve destruir qualquer outra que detecte.
+
+**É um problema de verificação, e nada mais.** Não se sustenta porque o outro
+seja hostil. Sustenta-se porque:
+
+| floresta escura | este corpus |
+|---|---|
+| o único dado é transmissão autodeclarada | **`D4`** — registro inteiramente autodeclarado |
+| há adversário possível | **`D5`** |
+| a distância impede conferência independente | nenhum valor obtenível sem o registro |
+| `cost_system(err)` = extinção | o termo que domina `C8_eff` |
+
+E **o corolário 2 / RG-20 é a saída, e é a única**: *ao menos um valor tem de
+ser obtenível **sem** o registro.* Acrescente um só — um — e a cadeia de
+suspeita deixa de fechar. A floresta escura não é uma lei do cosmos; é o que
+acontece num cosmos onde todo dado é declarado pelo próprio declarante.
+
+### E há inconsistência interna no título
+
+A tese matemática de «três corpos» é que **não existe lei geral em forma
+fechada**. E a floresta escura é oferecida **como lei fechada** para `n`
+civilizações em atração mútua. Euler, Lagrange e Moore não cometeram esse erro
+porque **declararam a condição de cada solução**.
+
+`L1` deste corpus declarou a sua — teoria de dois corpos, `n ≥ 3` fora do
+escopo. Era uma limitação; a correção mostra que era também uma honestidade.
+
+### Os Desdobradores, e o espelho do RG-20
+
+No romance, os Desdobradores mantêm o plano **apenas na própria mente**, porque
+os sófons leem toda comunicação humana mas não leem pensamento.
+
+- Liu: contra um adversário que **lê** todo o registro, a única arma é o que não está nele.
+- Este corpus: contra um adversário que **escreve** todo o registro, a única defesa é um valor que não vem dele.
+
+Mesma estrutura, sinal oposto, mesma conclusão: **um sistema fechado sobre o
+próprio registro não se resolve.** E os trissolarianos não sabem mentir — a
+transparência total é derrotada pela opacidade, razão pela qual `C4` não pede
+transparência, e pede **derrubabilidade em uso**.
