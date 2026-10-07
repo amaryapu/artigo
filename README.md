@@ -48,6 +48,8 @@ os erros cometidos no caminho.**
 
 > ## **[`ARTIGO`](ARTIGO.md)** — ## **a versão podada: 3.046 palavras, seis páginas.** O que resta depois de separado o joio: a variável, as quatro condições, os dez ataques, **as três correções que também falham**, **o teorema com demonstração**, e o exemplo trabalhado em **Elo**. É esta que se submete.
 
+> ## **[`OS TRÊS CORPOS`](TRES-CORPOS.md)** — **`L1`: esta é uma teoria de dois corpos, e eu nunca disse.** Poincaré e Arrow, independentes, dizem que **o par é especial por resultado** — e **a confluência pode ser intransitiva.** Com o caso de 1889: ele admitiu o erro depois de impresso, **pagou mais que o prêmio**, e **descobriu o caos na correção.**
+
 > ## **[`N4 · O TEOREMA`](N4-O-TEOREMA.md)** — **o limite formalizado**: cinco definições, enunciado, demonstração em três passos, dois corolários. E o exemplo trabalhado: **`Ea + Eb = 1`** é a assinatura formal de um sistema onde dois não podem subir juntos — e **Facemash, 2003**, é o caso documentado.
 
 > ## **[`PAPER` · versão de trabalho](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**

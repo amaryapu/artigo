@@ -342,6 +342,18 @@ note one collision found on a first casual look: **Moreira, Lima and Santos (202
 concept.** We cite it with regard and distinguish it; **and its discovery by accident is
 evidence that a systematic search will find more.**
 
+**`[LIMIT] This is a two-body theory, and we had not said so.** Every construction here is
+dyadic: one subject and one system; two inputs and one output; `Ea + Eb = 1`. **The dyad is
+provably special** — the two-body problem has a closed-form solution and the three-body
+problem does not (Poincaré, 1890), and **Arrow's theorem** states that for `n ≥ 3`
+alternatives no aggregation rule satisfies the reasonable conditions, while for `n = 2`
+one does. **Open consequences we cannot resolve here:** when two subjects with opposed
+interests are affected by one decision, **to whom is provenance owed**; if `A` overturns a
+description and this harms `B`, **who holds the right**; `cost_system(err)` assumes one
+system and one subject; and **we do not know whether the relation this paper calls
+confluence is transitive.** If it is not, **"in confluence with everyone" is not a
+reachable state but an expression without a referent.**
+
 **`[LIMIT] `n = 1` on attacks.** Ten attacks, one author. **Only what was imagined can be
 attacked**, and the failure of the second round **increases** the suspicion that the attack
 space is larger than explored.
