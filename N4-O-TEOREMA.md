@@ -239,3 +239,55 @@ privacidade individual.**
 > ## **Os dois sabem apenas o que lhes foi escrito — e é por isso que a âncora tem de vir de fora, e é por isso que ela é a condição e não o conselho.**
 
 **`CC BY-SA`** · receita zero · **AMARYAPU**
+
+---
+
+## ADENDO · `M5′`, a transmissão desviada (7/out/2026)
+
+`M5` foi definido como **interrupção da transmissão**. A etimologia mostra que a
+definição estava incompleta, e o que faltava é pior.
+
+| | | |
+|---|---|---|
+| **`trair`** | do infinitivo latino **`tradere`** | «entregar» |
+| **`tradição`** | do latim **`traditio, onis`** | |
+| **`traição`** | do latim **`traditio, onis`** | **a mesma entrada** |
+
+E `en.wiktionary`, nas duas direções: *«tradition … from Latin `trāditiō`, from the
+verb `trādō`. **Doublet of treason**»*; *«traitor … from Latin `trāditor`. **Doublet
+of traditor and treason**»*.
+
+`tradere` = `trans + dare`, **dar através, entregar**. O latim não distingue entregar
+um tesouro de entregar uma pessoa.
+
+### A correção
+
+- **`M5`** — a transmissão **interrompida**: entregar a ninguém.
+- **`M5′`** — a transmissão **desviada**: entregar **a quem não devia receber**.
+
+**`M5′` não quebra nada.** O conteúdo chega íntegro, a cadeia está intacta, o registro
+fica impecável — só o destinatário está errado. Logo **nenhum verificador sintático a
+detecta**, porque não há nada malformado para detectar.
+
+> Este é o `N4` reencontrado pela via da língua: o teorema diz que nenhum verificador
+> sintático sobre um registro autodeclarado exclui o comportamento visado. `M5′` é a
+> instância mais limpa possível disso — uma entrega **formalmente perfeita**.
+
+E a consequência operacional: a defesa não pode ser verificar a **forma** da entrega.
+Tem de ser **`C3`** — quem entregou, a quem, e por quê. **A única diferença entre
+tradição e traição é a quem se entrega. A operação é idêntica.**
+
+### E o caso canônico está no texto que funda a transmissão
+
+**1 Coríntios 11,23** usa **o mesmo verbo grego duas vezes no mesmo versículo**:
+
+> *«Porque eu recebi do Senhor o que também vos **entreguei** (`παρέδωκα`): que o Senhor
+> Jesus, na noite em que foi **traído** (`παρεδίδετο`), tomou o pão…»*
+
+`παραδίδωμι` — entregar, passar às mãos de. Paulo **entrega** a tradição; Jesus é
+**entregue**. O verso que institui a transmissão nomeia a traição com o verbo da
+transmissão.
+
+> **Não existe transmitir sem poder trair, porque é o mesmo ato.** Quem nunca entrega
+> nunca trai — e nunca transmite. A única defesa não é deixar de entregar: é **declarar
+> a quem**, que é precisamente o que cada etiqueta deste corpus faz.
