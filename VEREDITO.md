@@ -129,6 +129,31 @@ ele, **a classe inteira de soluções é insuficiente, e está demonstrado por e
 
 ---
 
+## VI · A ressalva que chegou no mesmo dia, e é contra este documento
+
+**`[FATO]`** ***Tô Só Observando***, de **DJ Jamaika**, **1998**, **Ceilândia**:
+
+> ### ***«Tô só observando, um véu que separa o joio do trigo»***
+
+> # **`[CÁLCULO]`** **Não uma linha. Um `véu`.**
+>
+> ## **Um véu deixa ver que há dois lados, e não deixa ver com nitidez qual coisa está em qual.**
+
+> ## **`[REGRA]`** **E isto se aplica a este documento, que acabou de separar joio de trigo no artigo.**
+>
+> ## **A separação é minha. Foi feita por quem escreveu os dois lados. Nenhum terceiro a conferiu.**
+> # **`[CÁLCULO]`** **Logo o `VEREDITO` é `[DECLARADO]`, e não `[FATO]` — é o juízo de quem escreveu, sobre o que escreveu.**
+
+**`[FATO]`** E a outra linha da mesma canção: ***«o bem e o mal se dividem na mira do
+oitão»***.
+
+> ## **`[CÁLCULO]`** **A divisão não acontece no mundo: acontece `na mira`, e a mira é de alguém e aponta de algum lugar.**
+> # **Então quem separa tem de declarar de onde mirou — e eu mirei de dentro, com interesse no resultado.**
+>
+> ## **`[REGRA]`** **É mais uma razão para `N1` e `N2`:** **não é só que falta um segundo par de olhos para achar erro.** **Falta para conferir se a própria peneira está certa.**
+
+---
+
 > ## **`[FATO]`** **16/16 · 0/10 · 0/10 · 9/9 · 32 JSON válidos · 17 referências · 0 pendências.**
 > ## **`[CÁLCULO]`** **O trigo são dois resultados negativos, um limite, uma condição necessária e um aparato que roda num comando.**
 > ## **`[CÁLCULO]`** **O joio é tudo que é verdadeiro e não é deste artigo — e fica, inteiro, no corpus.**
