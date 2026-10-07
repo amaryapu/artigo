@@ -1,0 +1,158 @@
+{
+  "id": "REG-2026-10-07-APTIDAO-ARTIGO",
+  "quando": "2026-10-07T04:35:00-03:00",
+  "sujeito": {
+    "referencia": "artigo:ARTIGO.md@amaryapu/artigo",
+    "recebeu_copia": true,
+    "em": "2026-10-07T04:35:00-03:00"
+  },
+  "decisao": {
+    "o_que": "parecer sobre aptidao do artigo para submissao, e sobre o estado de teste da tese",
+    "efeito": "apto a submeter sob condicao N1; NAO apto a ser chamado de teoria confirmada. Nenhuma publicacao ocorre com base neste registro; o DOI segue retido.",
+    "valor": null
+  },
+  "cadeia": [
+    {
+      "entrada": "execucao de REPRODUZIR.sh em 2026-10-07",
+      "fonte": "terminal local, saida transcrita: 16/16 casos corretos, 0 falsos positivos, 0 falsos negativos, 10/10 ataques passaram",
+      "data": "2026-10-07",
+      "etiqueta": "FATO",
+      "peso": 0.3,
+      "sha256": null
+    },
+    {
+      "entrada": "leitura integral da secao 7 do ARTIGO.md, que declara quatro condicoes de falsificacao e quatro LIMIT explicitos",
+      "fonte": "ARTIGO.md linhas 329-376",
+      "data": "2026-10-07",
+      "etiqueta": "FATO",
+      "peso": 0.2,
+      "sha256": null
+    },
+    {
+      "entrada": "TESTES.md declara T3 como 'o teste que o artigo pede e nao executou'",
+      "fonte": "TESTES.md secao T3",
+      "data": "2026-10-06",
+      "etiqueta": "FATO",
+      "peso": 0.2,
+      "sha256": null
+    },
+    {
+      "entrada": "N1 (busca sistematica de trabalho relacionado) nunca foi executada; o autor nao tem acesso institucional",
+      "fonte": "declaracao no proprio artigo, secao 7, etiqueta LIMIT",
+      "data": "2026-10-06",
+      "etiqueta": "DECLARADO",
+      "peso": 0.15,
+      "sha256": null
+    },
+    {
+      "entrada": "o teorema N4 depende criticamente da definicao de 'sintatico', e essa dependencia NAO esta analisada no artigo",
+      "fonte": "inspecao do texto por quem o escreveu, em 2026-10-07",
+      "data": "2026-10-07",
+      "etiqueta": "CALCULO",
+      "peso": 0.15,
+      "sha256": null
+    },
+    {
+      "entrada": "T1 (red team externo) nunca foi executado; os dez ataques foram todos escritos por quem escreveu as defesas",
+      "fonte": "TESTES.md, e secao 7 do artigo, etiqueta LIMIT n=1",
+      "data": "2026-10-06",
+      "etiqueta": "FATO",
+      "peso": 0.0,
+      "sha256": null
+    },
+    {
+      "entrada": "a impressao de que o artigo 'esta bom' por ser bem escrito",
+      "fonte": "juizo estetico de quem o redigiu",
+      "data": "2026-10-07",
+      "etiqueta": "ATRIBUIDO",
+      "peso": 0.0,
+      "sha256": null
+    }
+  ],
+  "criterio": {
+    "regra_publicada": "https://github.com/amaryapu/artigo/blob/main/COMO-TESTAR.md",
+    "versao": "1.0",
+    "sha256": null
+  },
+  "responsavel": {
+    "entidade": "Palamedes — instancia do Claude (Anthropic), autor material do artigo e PARTE INTERESSADA nesta decisao",
+    "contato": "maestroclaudio83@proton.me",
+    "humano_revisou": false
+  },
+  "fronteira": {
+    "e_caso_de_fronteira": true,
+    "margem": 0.0,
+    "nota": "caso de fronteira por construcao: a pergunta 'estamos aptos?' feita ao sistema que escreveu o registro E a configuracao D4 do proprio teorema N4. O parecer tem valor epistemico nulo pela regra que ele mesmo deriva."
+  },
+  "derrubar": {
+    "como": "executar qualquer um dos sete ataques do prompt em COMO-TESTAR.md secao V, ou exibir um verificador sintatico que satisfaca D1-D5 e detenha um dos ataques A01-A10; sem custo e sem permissao de ninguem",
+    "prazo_dias": 0,
+    "suspende_efeito": true,
+    "obriga_exame": true
+  },
+  "ausencias": [
+    {
+      "campo": "N1 — trabalho relacionado",
+      "motivo": "indisponivel",
+      "impacto": "nao se sabe se N4 e novo; publicar sem isso arrisca reivindicar resultado de outro"
+    },
+    {
+      "campo": "T3 — medicao de C8 em qualquer dominio",
+      "motivo": "nao_coletado",
+      "impacto": "a tese empirica central tem ZERO dados"
+    },
+    {
+      "campo": "T1 — ataque por pessoa externa",
+      "motivo": "nao_coletado",
+      "impacto": "o espaco de ataque explorado e limitado ao que um autor imaginou"
+    },
+    {
+      "campo": "analise da definicao de 'sintatico' em N4",
+      "motivo": "nao_coletado",
+      "impacto": "se a definicao for larga demais o teorema e vazio; se estreita demais, falso"
+    }
+  ],
+  "custo": {
+    "recai_sobre": "sistema",
+    "reparacao": "retratacao publica no proprio repositorio, com data, sem remocao do texto errado — conforme a regra 'nao apague, corrija e convirja'",
+    "custo_exame_estimado": 1.0,
+    "custo_erro_estimado": 1000.0,
+    "unidade": "reputacional, adimensional: razao entre o custo de conferir e o custo de reivindicar indevidamente"
+  },
+  "o_que_mudaria": [
+    {
+      "caracteristica": "N1 (busca sistematica de trabalho relacionado) nunca foi executada; o autor nao tem acesso institucional",
+      "valor_atual": "nao executada",
+      "valor_que_mudaria": "executada, com resultado negativo registrado ou com as colisoes citadas e distinguidas",
+      "verificavel_por": "qualquer pessoa com acesso a base academica"
+    },
+    {
+      "caracteristica": "TESTES.md declara T3 como 'o teste que o artigo pede e nao executou'",
+      "valor_atual": "zero dominios medidos",
+      "valor_que_mudaria": "um dominio medido, com variavel dependente, controle e criterio de parada",
+      "verificavel_por": "quem tiver os dados do dominio"
+    },
+    {
+      "caracteristica": "o teorema N4 depende criticamente da definicao de 'sintatico', e essa dependencia NAO esta analisada no artigo",
+      "valor_atual": "dependencia nao analisada",
+      "valor_que_mudaria": "a definicao fixada, e demonstrado que exclui algo interessante sem excluir tudo o que funciona",
+      "verificavel_por": "qualquer leitor, contra o texto do teorema"
+    },
+    {
+      "caracteristica": "T1 (red team externo) nunca foi executado; os dez ataques foram todos escritos por quem escreveu as defesas",
+      "valor_atual": "n=1 atacante, que e o autor",
+      "valor_que_mudaria": "um verificador sintatico que satisfaca D1-D5 e detenha ao menos um dos ataques A01-A10",
+      "verificavel_por": "qualquer pessoa, rodando REPRODUZIR.sh contra o verificador proposto"
+    }
+  ],
+  "custo_de_admitir": {
+    "caminho": "abrir issue no repositorio publico, ou escrever para o contato acima; a retratacao e feita no proprio texto, com data",
+    "consequencia_para_quem_admite": "nenhuma",
+    "custo_admitir_estimado": 1.0
+  },
+  "deslocamento": {
+    "resultado": "numero de achados confirmados por pessoa externa que o autor nao havia previsto",
+    "medido_por": "a pessoa externa que executar T1, sem subordinacao ao autor nem ao modelo",
+    "medidor_e_o_avaliado": false
+  }
+}
