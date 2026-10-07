@@ -78,6 +78,33 @@ impossibilidade.** É análise jurídico-doutrinária qualitativa.
 
 ---
 
+## IV-b · E a regra foi violada por mim, no mesmo dia, em uma hora
+
+**`FATO`** · Horas depois de escrever a seção II desta nota — que declara que **«um resultado
+ZERO deste buscador é evidência fraca, não forte»** — busquei o autor brasileiro
+**`Abdo Tannuri`** no **OpenLibrary**, obtive **`total: 0`**, e **relatei o zero como se
+fosse informação sobre o autor.**
+
+**`FATO`** · O autor **existe** e tem pelo menos **onze títulos** publicados, verificáveis em
+catálogo comercial: *Estranhos Seres Com Inteligência Espiritual* (2009), *O Estadista da
+Alma*, *O Quarto Elemento*, *Jornada Rumo à Intuição*, *Cubo*, *As Quatro Damas de Pink*,
+*Gabatá*, *Os Três Cavalheiros de Black*, entre outros.
+
+> ## **`CÁLCULO`** **O `OpenLibrary` é um acervo de catalogação colaborativa, e **autores
+> independentes brasileiros estão sistematicamente sub-representados nele.** O `0` mediu
+> **a cobertura do catálogo**, não a existência da obra.**
+>
+> # **`REGRA`** **Isto é a falha exata que esta nota descreve, cometida por quem a escreveu,
+> no mesmo dia. E tem consequência direta sobre `N1-g`: se um `0` do `OJS` do UniCEUB é
+> evidência fraca, **um `0` de qualquer catálogo é evidência sobre o catálogo** — e a busca
+> que decide o `§6` **não pode ser feita por ausência em base nenhuma.** Tem de ser busca
+> **positiva**, em bases cuja cobertura do campo seja conhecida e declarada.**
+>
+> ## **Registrado aqui, e não apagado, porque é o segundo caso documentado neste corpus de
+> uma regra sendo violada por seu próprio autor dentro de horas — o primeiro foi `R46`.**
+
+---
+
 ## V · Registro de procedência de um item do corpus
 
 **`DECLARADO`** · O perfil `instagram.com/confluencie` **foi criado pelo autor do corpus**,
