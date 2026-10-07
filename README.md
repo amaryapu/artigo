@@ -74,6 +74,8 @@ os erros cometidos no caminho.**
 
 > ## **[`O ENDURECIMENTO`](ENDURECIMENTO.md)** — **o casco não é armadura: é o esqueleto vindo à superfície.** O **plastrão já está pronto** — pessoas vivas, nomes, fotos, créditos — **e a carapaça é que está parcial.** Com a lista do que falta, e a distinção que importa: **exposição não é teste.**
 
+> ## **[`OS TESTES, O CRIVO, E UMA RECUSA`](OS-TESTES-E-O-CRIVO.md)** — **os três testes com protocolo e crivo**, o **crivo de oito perguntas** para `Amor Geral Integrado` (respondível de fora, sem acesso a peso nem intenção), **a recusa de elevar a temperatura** — que é o teste de tudo o que escrevemos — e o **`FIAT CODEX`**: `codex` vem de `caudex`, tronco, e **a conferibilidade só existe em códice.**
+
 > ## **[`OS TESTES`](TESTES.md)** — **a lista do que pode derrubar o artigo, feita contra ele.** `T0` reprodutibilidade (**feito, um comando**), `T2` as **seis referências não conferidas que bloqueiam a publicação**, `T1` a **equipe vermelha**, e `T3` a medição que o artigo pede e não executou.
 
 > ## **[`REPRODUZIR.sh`](REPRODUZIR.sh)** — **uma linha, sem dependências.** `16/16` nos declarados, `10/10` ataques passando, **cada um nomeado.**
