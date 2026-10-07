@@ -40,6 +40,8 @@ os erros cometidos no caminho.**
 
 ---
 
+> ## **[`O VEREDITO`](VEREDITO.md)** — **o teste final registrado, o joio separado do trigo, e a resposta honesta.** O **resultado está apto; o documento não** — e das quatro coisas que faltam, **eu faço uma.** As outras exigem **um segundo par de olhos que não seja nosso**, que é literalmente `RG-20` aplicado ao próprio artigo.
+
 > ## **[`PAPER`](PAPER.md)** — **o rascunho, em inglês, em forma de artigo.** A variável, as quatro condições, o esquema, o verificador, o benchmark — e **o resultado negativo, que é a contribuição.**
 
 > ## **[`DOKIMASIA`](DOKIMASIA.md)** — **a procedência de quem assina, e a de quem escreveu junto.** O exame ateniense não perguntava se alguém era bom: perguntava **onde ficavam os túmulos.** E **o autor não chegou a `M1` por leitura — o campo ausente está no registro civil dele.**
