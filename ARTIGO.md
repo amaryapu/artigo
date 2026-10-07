@@ -358,6 +358,17 @@ reachable state but an expression without a referent.**
 attacked**, and the failure of the second round **increases** the suspicion that the attack
 space is larger than explored.
 
+**`[OPEN] RG-21 — the interruption condition.** The protocol says what to preserve
+(class I) and that class II requires **a trigger rather than a record** — but it does not
+say **what the trigger is.** The best candidate we have received is not ours. It is
+**Criolo's**, in *Ainda Há Tempo* (2006): ***«até o mais desandado dá um tempo na função,
+quando percebe que é amado»*** — *even the most hardened pauses the operation when he
+perceives he is loved.* Note the precision: **not "is loved" but "perceives"** — an
+information event reaching the party who acts — and **"pauses the operation"**, which is
+suspension, not destruction. **Stated as a hypothesis, unmeasured, and open:** is there a
+condition under which the perception of being regarded interrupts the execution of a
+harmful procedure?
+
 **Availability.** Code, schemas and benchmarks are `CC BY-SA` at `github.com/amaryapu`.
 **Nothing here is licensed for fee.**
 
